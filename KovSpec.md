@@ -1,6 +1,6 @@
 # Követelmény Specifikáció
 >Áttekintés
----
+Áttekintve
 
 >Jelenlegi helyzet
 ---
