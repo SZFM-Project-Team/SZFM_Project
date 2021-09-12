@@ -26,6 +26,7 @@ Funkció osztás Rendelkezzen egy olyan funkcióval amely képes a "matematikai 
 Funkció négyzetgyökvonás Rendelkezzen egy olyan funkcióval amely képes a négyzetgyököt vonni <br>
 Funkció gyökvonás rendelkezzen egy funkcióval amely képes tetszésszerű rangú gyököt vonni egy számból <br>
 Funkció hatványozás Rendelkezzen egy olyan funkcióval amely képes a számokat hatványra emelni <br>
+Funkció SzázalékszámJtás Rendelkezzen egy olyan funkcióval amely képes egy tetszőleges számnak tetszőleges százalékát kiszámítani. <br>
 Funkció törlés funkció rendelkezzen egy funkcióval amely képes a bevitt adatok törlésére <br>
 Funkció gyökvonás rendelkezzen egy funkcióval amely képes tetszésszerű rangú gyököt vonni egy számból <br>
 Felület Átlátható,könnyen kezelhető Átlátható Könnyen, keresés nélkül kezelhetők az alkalmazás funkciói <br>
