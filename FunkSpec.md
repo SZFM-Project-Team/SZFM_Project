@@ -64,6 +64,14 @@ A webszerver üzemeltetése minden webes számológéphez elengedhetetlen folyam
 
 >Funkció - követelmény megfeleltetés
 ---
+A számológép egyik fontos követelménye, hogy képes legyen a négy alapműveletre és a gyökvonás illetve, a hatványozás műveleteire. 
+Ezeket a követelményeket a következőképp oldanánk meg: 
+-összeadás:  a számológép második sorában található negyedik gombjának megnyomásával  
+-kivonás: a számológép harmadik sorában található negyedik gombjának megnyomásával  
+-szorzás: a számológép első sorában található negyedik gombjának megnyomásával  
+-osztás: a számológép első sorában található ötödik gombjának megnyomásával  
+-hatványozás: a számológép második sorában található ötödik gombjának megnyomásával  
+-gyökvonás: a számológép harmadik sorában található ötödik gombjának megnyomásával
 
 >Fogalomszótár
 ---
