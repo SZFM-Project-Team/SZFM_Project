@@ -30,6 +30,7 @@ Emellett azt is fontos megemlíteni, hogy minél egyszerűbb legyen a kivitelez�
 
 >Képernyő tervek
 ---
+![Panda Calculator Preview](/panda_calculator.png)
 
 >Forgatókönyv
 ---
