@@ -12,8 +12,7 @@ A kiadónk szeretne egy olyan számológépet amely képes az alapvető számol�
 szorzást, és az osztást. Ezek mellett szeretnénk ha lenne benne hatványozás és gyökvonási lehetőség is, mivel ha a gyerekek megkapják <br>
 a számológépet azelőtt, hogy tanulnák az iskolában akkor önszorgalomból utánajárhatnak az interneten. Mire oda jutnak, hogy tanulják, <br>
 addigra már többjük elsajátíthatja ezeket az ismereteket. <br>
-Mivel egy általános iskolás diák fogja használni, ezért <br>
-lehetne hozzá valami kis bevezető amivel elmagyarázzák a használatát a gyerekeknek. <br>
+Mivel egy általános iskolás diák fogja használni, ezért lehetne hozzá valami kis bevezető amivel elmagyarázzák a használatát a gyerekeknek. <br>
 
 >Funkcionális követelmények
 ---
