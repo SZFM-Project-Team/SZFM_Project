@@ -42,7 +42,7 @@ A számológépünk csak az alapműveleteket (osztás, szorzás, összeadás, ki
 
 >Igényelt üzleti folyamatok modellje
 ---
-
+A webszerver üzemeltetése minden webes számológéphez elengedhetetlen folyamat. Ugyanez mondható el a számológép design-jának a megtervezéséről is. Viszont még igényelt elvárás lehet az is, hogy a számológép tudományterület specifikus legyen azaz, be lehessen állítani, hogy milyen műveleteket tudjon végrehajtani egy számmológép. Például egy általános számológépnek nem feltétlen kell tudnia a kettes számrendszerbe átváltani egy számot, még egy programozói számítógépnek alapelvárás. 
 >Megfeleltetés, hogyan fedik le a használati esetek a követelményeket
 ---
 
