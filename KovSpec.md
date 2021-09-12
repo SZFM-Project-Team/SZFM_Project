@@ -31,7 +31,22 @@ A képek jpeg és png formátumúak lehetnek.<br>
 ---
 
 >Követelménylista
----
+Funkció összeadás Rendelkezzen egy olyan funkcióval amely képes a "matematikai összeadásra" <br>
+Funkció kivonás Rendelkezzen egy olyan funkcióval amely képes a "matematikai kivonásra" <br>
+Funkció szorzás Rendelkezzen egy olyan funkcióval amely képes a "matematikai szorzásra" <br>
+Funkció osztás Rendelkezzen egy olyan funkcióval amely képes a "matematikai osztásra" <br>
+Funkció négyzetgyökvonás Rendelkezzen egy olyan funkcióval amely képes a négyzetgyököt vonni <br>
+Funkció gyökvonás rendelkezzen egy funkcióval amely képes tetszésszerű rangú gyököt vonni egy számból <br>
+Funkció hatványozás Rendelkezzen egy olyan funkcióval amely képes a számokat hatványra emelni <br>
+Funkció törlés funkció rendelkezzen egy funkcióval amely képes a bevitt adatok törlésére <br>
+Funkció gyökvonás rendelkezzen egy funkcióval amely képes tetszésszerű rangú gyököt vonni egy számból <br>
+Felület Átlátható,könnyen kezelhető Átlátható Könnyen, keresés nélkül kezelhetők az alkalmazás funkciói <br>
+Felület Díszítés a weboldal jobb alsó sarkában legyen két jel melyek szimbolizálják a megrendelőt, illetve a gyártócéget. <br>
+Felület Tutorial A weboldal jobb felső sarkában legyen egy mezó amely egy képsorohatot tartalmaz, ez megmutatja, hogy kell használni a számológépet <br>
+Felület Nyilak A Tutorial mező jobb és bal oldalán legyenek nyilak amellyekkel a képsorozatban levő képek között lehet válogatni. <br>
+Biztonság https protocol amellyel biztosítjuk a felhasználó védettségét a weben <br>
+Számítások kliens oldalon való történése Az alkalmazás a kliensoldalán fog számításokat végezni, hogy kerüljük a weboldal leterheltségét, így sok felhasználó egyidejüleg tudja használni <br>
+
 
 >Riportok
 ---
