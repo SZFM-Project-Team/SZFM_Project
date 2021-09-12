@@ -30,7 +30,8 @@ A képek jpeg és png formátumúak lehetnek.<br>
 >Igényelt üzleti folyamatok
 ---
 
->Követelménylista <br>
+>Követelménylista
+---
 Funkció összeadás Rendelkezzen egy olyan funkcióval amely képes a "matematikai összeadásra" <br>
 Funkció kivonás Rendelkezzen egy olyan funkcióval amely képes a "matematikai kivonásra" <br>
 Funkció szorzás Rendelkezzen egy olyan funkcióval amely képes a "matematikai szorzásra" <br>
