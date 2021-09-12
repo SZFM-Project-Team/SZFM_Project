@@ -26,9 +26,10 @@ A képek jpeg és png formátumúak lehetnek.<br>
 
 >Jelenlegi üzleti folyamatok modellje
 ---
-
+Habár sok, számológép van az interneten, a legtöbb túl okos egy általános iskolai alsós diák számára. A log, ln, exp és hasonló kifejezések riasztónak hathatnak a kisgyermekek számára, valamint a korukban még teljesen feleslegesek is ezek a műveletek. Viszont aza alapműveletek ismerete már a korukban is nagyon fontos a hatványozás és gyökvonás pegig talán a két leggyakoribb művelet az alapműveleteken kívűl, így hasznos lehet ismerkedni velük már azelőtt mielőtt egyáltalán tanulnák.
 >Igényelt üzleti folyamatok
 ---
+A számológéphez, szükséges webszervelt üzemeltetése,  számológép desigjának megalkotása. Ez a két folyamat minden számítógéphez sükséges. Ezeken kívül jó lehet ha ki tudja választani a felhasználó, hogy milyen tudományterületen szeretné használni a számítógépet és csak az ezen területben használt műveleteket megjeleníteni.
 
 >Követelménylista
 ---
