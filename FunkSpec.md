@@ -6,7 +6,9 @@ Egy számológép, ami az alapszámításokon kívül képes hatványozásra, é
 nem mindenki engedhet meg magának egy tudományos számológépet, az olcsókon pedig nincsenek ilyen funkciók. <br>
 Egy ingyenes rendszert alkotunk meg, szóval semmi féle anyagi következményt nem von maga után a weboldal látogatása, <br>
 és használata. Emellett egy szép design-al is ellátjuk a számológépünket, aminek van egy kis hátsó szándéka is. Cégünk szeretné <br>
-felhívni az iskolások figyelmét a természet veszélyezettségére, és erre az egyik legalkalmasabb állatot választottuk, a pandát.
+felhívni az iskolások figyelmét a természet veszélyezettségére, és erre az egyik legalkalmasabb állatot választottuk, a pandát. <br>
+Ez csak egy kis tudat alatti oktatás lenne részünkről, hogy a matek oktatása mellett egy kis természetvédelmet is tanítsunk. <br>
+Emellett azt is fontos megemlíteni, hogy minél egyszerűbb legyen a kivitelezés, mivel érthetőnek kell lennie mindenki számára.<br>
 
 >Jelenlegi helyzet
 ---
