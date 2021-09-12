@@ -23,7 +23,6 @@ legyen reszponzív. Szóval telefonon, tableten, és számítógépen is működ
 ---
 A web felület szabványos eszközökkel készüljön, html/css/javascript/php.<br>
 A képek jpeg és png formátumúak lehetnek.<br>
-A felhasználókat azonosító web oldalak esetében szükséges jogszabályokat be kell tartani: GDPR, ... <br>
 
 >Jelenlegi üzleti folyamatok modellje
 ---
