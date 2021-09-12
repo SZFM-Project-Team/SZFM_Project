@@ -1,7 +1,7 @@
 # Funkcionális Specifikáció
 >Áttekintés
 ---
-Egy olyan számológépet szeretnénk fejleszeni, ami segít az általános iskolás gyerekeknek a matematika világában.
+Egy olyan számológépet szeretnénk fejleszeni, ami segít az általános iskolás gyerekeknek a matematika világában. Magát a számításokat külön programozási nyelvekkel implementálva (JavaScript, PHP, HTML, CSS). Mindezt egy webszerveren keresztül a kliens oldalán végrehajtva.
 Egy számológép, ami az alapszámításokon kívül képes hatványozásra, és gyökvonásra is hasznos lehet nekik, mivel nem mindenki engedhet meg magának egy tudományos számológépet, az olcsókon pedig nincsenek ilyen funkciók.
 Egy ingyenes rendszert alkotunk meg, szóval semmi féle anyagi következményt nem von maga után a weboldal látogatása, és használata. 
 Emellett egy szép design-al is ellátjuk a számológépünket, aminek van egy kis hátsó szándéka is. 
