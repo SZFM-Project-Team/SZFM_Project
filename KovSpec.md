@@ -2,29 +2,29 @@
 
 >Jelenlegi helyzet
 ---
-A Számok Kiadó tanítási célból szeretne egy számológépet. Kiadónk nagyon híres a matematika könyveiről, mivel erre specializálódtunk.
-Szeretnénk egy ingyenes számítógépes számológép szoftvert kínálni a lelkes diákoknak. Ezzel szeretnénk ösztönözni őket, hogy a 
-matematika igen is érdekes tud lenni, és számolgassanak nyugodtan. Ezzel minden bizonnyal el is érjük ezt.
+A Számok Kiadó tanítási célból szeretne egy számológépet. Kiadónk nagyon híres a matematika könyveiről, mivel erre specializálódtunk. <br>
+Szeretnénk egy ingyenes számítógépes számológép szoftvert kínálni a lelkes diákoknak. Ezzel szeretnénk ösztönözni őket, hogy a <br>
+matematika igen is érdekes tud lenni, és számolgassanak nyugodtan. Ezzel minden bizonnyal el is érjük ezt. <br>
 
 >Vágyálom rendszer
 ---
-A kiadónk szeretne egy olyan számológépet amely képes az alapvető számolások elvégzésére, ebbe beleértve az összeadást, kivonást,
-szorzást, és az osztást. Ezek mellett szeretnénk ha lenne benne hatványozás és gyökvonási lehetőség is, mivel ha a gyerekek megkapják
-a számológépet azelőtt, hogy tanulnák az iskolában akkor önszorgalomból utánajárhatnak az interneten. Mire oda jutnak, hogy tanulják, 
-addigra már többjük elsajátíthatja ezeket az ismereteket.
-Mivel egy általános iskolás diák fogja használni, ezért 
-lehetne hozzá valami kis bevezető amivel elmagyarázzák a használatát a gyerekeknek.
+A kiadónk szeretne egy olyan számológépet amely képes az alapvető számolások elvégzésére, ebbe beleértve az összeadást, kivonást, <br>
+szorzást, és az osztást. Ezek mellett szeretnénk ha lenne benne hatványozás és gyökvonási lehetőség is, mivel ha a gyerekek megkapják <br>
+a számológépet azelőtt, hogy tanulnák az iskolában akkor önszorgalomból utánajárhatnak az interneten. Mire oda jutnak, hogy tanulják, <br>
+addigra már többjük elsajátíthatja ezeket az ismereteket. <br>
+Mivel egy általános iskolás diák fogja használni, ezért <br>
+lehetne hozzá valami kis bevezető amivel elmagyarázzák a használatát a gyerekeknek. <br>
 
 >Funkcionális követelmények
 ---
-A számológép legyen könnyen kezelhető, és érthető legyen a használata. A weboldal könnyen kezelhető legyen, és az online megjelenés
-legyen reszponzív. Szóval telefonon, tableten, és számítógépen is működjön makulátlanul.
+A számológép legyen könnyen kezelhető, és érthető legyen a használata. A weboldal könnyen kezelhető legyen, és az online megjelenés  <br>
+legyen reszponzív. Szóval telefonon, tableten, és számítógépen is működjön makulátlanul. <br>
 
 >Rendszerre vonatkozó törvények, szabályok ajánlások
 ---
-A web felület szabványos eszközökkel készüljön, html/css/javascript/php.
-A képek jpeg és png formátumúak lehetnek.
-A felhasználókat azonosító web oldalak esetében szükséges jogszabályokat be kell tartani: GDPR, ...
+A web felület szabványos eszközökkel készüljön, html/css/javascript/php.<br>
+A képek jpeg és png formátumúak lehetnek.<br>
+A felhasználókat azonosító web oldalak esetében szükséges jogszabályokat be kell tartani: GDPR, ... <br>
 
 >Jelenlegi üzleti folyamatok modellje
 ---
