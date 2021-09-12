@@ -12,13 +12,19 @@ A kiadónk szeretne egy olyan számológépet amely képes az alapvető számol�
 szorzást, és az osztást. Ezek mellett szeretnénk ha lenne benne hatványozás és gyökvonási lehetőség is, mivel ha a gyerekek megkapják
 a számológépet azelőtt, hogy tanulnák az iskolában akkor önszorgalomból utánajárhatnak az interneten. Mire oda jutnak, hogy tanulják, 
 addigra már többjük elsajátíthatja ezeket az ismereteket.
+Mivel egy általános iskolás diák fogja használni, ezért 
+lehetne hozzá valami kis bevezető amivel elmagyarázzák a használatát a gyerekeknek.
 
 >Funkcionális követelmények
 ---
-
+A számológép legyen könnyen kezelhető, és érthető legyen a használata. A weboldal könnyen kezelhető legyen, és az online megjelenés
+legyen reszponzív. Szóval telefonon, tableten, és számítógépen is működjön makulátlanul.
 
 >Rendszerre vonatkozó törvények, szabályok ajánlások
 ---
+A web felület szabványos eszközökkel készüljön, html/css/javascript/php.
+A képek jpeg és png formátumúak lehetnek.
+A felhasználókat azonosító web oldalak esetében szükséges jogszabályokat be kell tartani: GDPR, ...
 
 >Jelenlegi üzleti folyamatok modellje
 ---
