@@ -8,9 +8,14 @@ matematika igen is érdekes tud lenni, és számolgassanak nyugodtan. Ezzel mind
 
 >Vágyálom rendszer
 ---
+A kiadónk szeretne egy olyan számológépet amely képes az alapvető számolások elvégzésére, ebbe beleértve az összeadást, kivonást,
+szorzást, és az osztást. Ezek mellett szeretnénk ha lenne benne hatványozás és gyökvonási lehetőség is, mivel ha a gyerekek megkapják
+a számológépet azelőtt, hogy tanulnák az iskolában akkor önszorgalomból utánajárhatnak az interneten. Mire oda jutnak, hogy tanulják, 
+addigra már többjük elsajátíthatja ezeket az ismereteket.
 
 >Funkcionális követelmények
 ---
+
 
 >Rendszerre vonatkozó törvények, szabályok ajánlások
 ---
