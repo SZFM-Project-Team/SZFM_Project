@@ -12,7 +12,11 @@ Emellett azt is fontos megemlíteni, hogy minél egyszerűbb legyen a kivitelez�
 
 >Jelenlegi helyzet
 ---
-
+A megrendeló  egy olyan számológépet szeretne amely használata egyszerű, átlátható, böngészőfüggetlen ugyanakkor az alapvetó matematikai <br>
+funkciókkal és műveletekkel rendelkezik(összeadás, kivonás, szorzás, osztás, hatványozás, négyzetgyökvonás), mindemellett legyen versenyképes a piacon . <br>
+Szeretné a műveletek gyors elvégzését illetve az eredmények pontosságát, és pontos kerekítését megadott tizedesjegyig. <br>
+Ezzel elérve, hogy a diákok egy könnyen átlátható felületen tudjanak dolgozni, így elérve azt, hogy ne viszakozzanak a számolástól, <br>
+és segítséget biztosítani a nehezebb feladatokhoz, illetve szeretnék, hogy a diákok könnyebben adaptálódjanak a XXI. századi automatizált/gépesített világhoz. <br> 
 >Követelménylista
 ---
 
