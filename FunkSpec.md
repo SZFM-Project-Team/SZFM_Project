@@ -39,7 +39,7 @@ Számítások kliens oldalon való történése Az alkalmazás a kliensoldalán 
 
 >Jelenlegi üzleti folyamatok modellje
 ---
-
+Azért, hogy az általános iskolai alsós diákokal, megszeretssük a matematikát és annak rejtelmeit létrehozunk egy számológépet amit ingyen használhatnak és nem riasztják el őket az olyan kifejezések mint a log, ln, és az exp ami számukra felesleges műveletek. A számológépünk csak az alapműveleteket (osztás, szorzás, összeadás, kivonás) a hatványozás és gyökvonás műveletét fogja ismerni ami teljesen lefedi az 1-4 évfolyamos diákok szükséges ismeretét.  
 >Igényelt üzleti folyamatok modellje
 ---
 
