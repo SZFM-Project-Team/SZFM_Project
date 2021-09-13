@@ -6,7 +6,7 @@ Az alkalmazás célja, hogy legyen egy olyan egyszerű számológép ami bármel
 Ezt legegyszerűbb módon úgy lehet elérni, hogy egy webes felületre készítjük el a számológépet.  Ez által bárki egyszerűen elérheti, feltéve ha van internetkapcsolata.  
 A webes felület bármilyen eszközön elérhető, legyen az PC, laptop, mobil telefon stb.  
 A felületnek emellett tartalmaz reklám felületet, ahol a Számok kiadó a saját könyveit reklámozhatja.  
-technológiák amiket alkalmazni szeretnénk: html, css, javascript.  
+Technológiák amiket alkalmazni szeretnénk: html, css, javascript.  
 
 >Jelenlegi helyzet
 ---
@@ -68,6 +68,13 @@ Ezeken kívül jó lehet ha ki tudja választani a felhasználó, hogy milyen tu
 
 >Riportok
 ---
+Hogyan kellene működnie a rendszernek?  
+Webböngészéből elérhetőnek kell lennie.  
+Az oldalon egy egyszerű számológépet kell látnunk.  
+Emellet legyen egy reklám felület ahol a Számok kiadó könyvei vannak reklámozva.  
+A számoló gépet tudjuk kattintásokkal alkalmazni.  
+A számológép jelenítse meg a beírt számokat, majd a művelet eredményét is.
+
 
 >Fogalomtár
 ---
