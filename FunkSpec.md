@@ -71,6 +71,11 @@ A használati esetek úgy fedik le a követelményeket, hogy a kölönböző fun
 
 >Forgatókönyv
 ---
+A weboldal megnyitásakor megjelenik egy egyszerű számológép.  
+Beírahtunk egy számot, amit egy műveletjel megnyomása követ.  
+Ezután még egy szám beírásával folytathatjuk.  
+Ezt követően a kliens oldalon számíttathatjuk ki a művelet eredményét.  
+Amit meg is jelenítünk a számológép "kijelzőjén".
 
 >Funkció - követelmény megfeleltetés
 ---
