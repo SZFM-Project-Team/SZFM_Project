@@ -43,11 +43,21 @@ A számológépünk csak az alapműveleteket (osztás, szorzás, összeadás, ki
 >Igényelt üzleti folyamatok modellje
 ---
 A webszerver üzemeltetése minden webes számológéphez elengedhetetlen folyamat. Ugyanez mondható el a számológép design-jának a megtervezéséről is. Viszont még igényelt elvárás lehet az is, hogy a számológép tudományterület specifikus legyen azaz, be lehessen állítani, hogy milyen műveleteket tudjon végrehajtani egy számmológép. Például egy általános számológépnek nem feltétlen kell tudnia a kettes számrendszerbe átváltani egy számot, még egy programozói számítógépnek alapelvárás. 
->Megfeleltetés, hogyan fedik le a használati esetek a követelményeket
----
 
 >Használati esetek
 ---
+Ez a felület bárki számára elérhető, és a következő esetekre tudják használni:  
+- számok összeadása
+- számok kivonása
+- számok szorzása
+- számok osztása
+- számok gyövonása
+- számok hatványozása
+- százalékszámítás
+
+>Megfeleltetés, hogyan fedik le a használati esetek a követelményeket
+---
+A használati esetek úgy fedik le a követelményeket, hogy a kölönböző funkciók: összeadás, kivonás, szorzás, osztás, gyökvonás, hatványozás, százalékszámítás elvégzését egy egyszerű gomb megnyomásával végezhetjük el.
 
 >Képernyő tervek
 ---
@@ -61,6 +71,11 @@ A webszerver üzemeltetése minden webes számológéphez elengedhetetlen folyam
 
 >Forgatókönyv
 ---
+A weboldal megnyitásakor megjelenik egy egyszerű számológép.  
+Beírahtunk egy számot, amit egy műveletjel megnyomása követ.  
+Ezután még egy szám beírásával folytathatjuk.  
+Ezt követően a kliens oldalon számíttathatjuk ki a művelet eredményét.  
+Amit meg is jelenítünk a számológép "kijelzőjén".
 
 >Funkció - követelmény megfeleltetés
 ---

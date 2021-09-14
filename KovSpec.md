@@ -1,5 +1,13 @@
 # Követelmény Specifikáció
 
+>Áttekintés
+---
+Az alkalmazás célja, hogy legyen egy olyan egyszerű számológép ami bármelyik diák számára néhány kattintással elérhető.  
+Ezt legegyszerűbb módon úgy lehet elérni, hogy egy webes felületre készítjük el a számológépet.  Ez által bárki egyszerűen elérheti, feltéve ha van internetkapcsolata.  
+A webes felület bármilyen eszközön elérhető, legyen az PC, laptop, mobil telefon stb.  
+A felületnek emellett tartalmaz reklám felületet, ahol a Számok kiadó a saját könyveit reklámozhatja.  
+Technológiák amiket alkalmazni szeretnénk: html, css, javascript.  
+
 >Jelenlegi helyzet
 ---
 A Számok Kiadó tanítási célból szeretne egy számológépet. 
@@ -60,16 +68,23 @@ Ezeken kívül jó lehet ha ki tudja választani a felhasználó, hogy milyen tu
 
 >Riportok
 ---
+Hogyan kellene működnie a rendszernek?  
+Webböngészéből elérhetőnek kell lennie.  
+Az oldalon egy egyszerű számológépet kell látnunk.  
+Emellet legyen egy reklám felület ahol a Számok kiadó könyvei vannak reklámozva.  
+A számoló gépet tudjuk kattintásokkal alkalmazni.  
+A számológép jelenítse meg a beírt számokat, majd a művelet eredményét is.
+
 
 >Fogalomtár
 ---
 1. **Reszponzív felület** - Mobilon, Tableten, *PC*-n igazodik a képernyőhöz a felület mérete, azaz több eszközön is probléma nélkül üzemelhet.”
-1. **Webszerver** - egy kiszolgáló, mely elérhetővé teszi a helyileg (esetleg más kiszolgálón) tárolt weblapokat a *HTTP* protokollon keresztül.
-1. **HTML** - angolul: *HyperText Markup Language*=hiperszöveges jelölőnyelv, egy leíró nyelv, melyet weboldalak készítéséhez fejlesztettek ki, és mára már internetes szabvánnyá vált a *W3C* (World Wide Web Consortium) támogatásával.
-1. **CSS** - Cascading Style Sheets, magyarul: lépcsőzetes stíluslapok, a számítástechnikában egy stílusleíró nyelv, mely a *HTML* vagy *XHTML* típusú strukturált dokumentumok megjelenését írja le.
-1. **JavaScript** - programozási nyelv egy objektumorientált, prototípus-alapú szkriptnyelv, amelyet weboldalakon elterjedten használnak.
+2. **Webszerver** - egy kiszolgáló, mely elérhetővé teszi a helyileg (esetleg más kiszolgálón) tárolt weblapokat a *HTTP* protokollon keresztül.
+3. **HTML** - angolul: *HyperText Markup Language*=hiperszöveges jelölőnyelv, egy leíró nyelv, melyet weboldalak készítéséhez fejlesztettek ki, és mára már internetes szabvánnyá vált a *W3C* (World Wide Web Consortium) támogatásával.
+4. **CSS** - Cascading Style Sheets, magyarul: lépcsőzetes stíluslapok, a számítástechnikában egy stílusleíró nyelv, mely a *HTML* vagy *XHTML* típusú strukturált dokumentumok megjelenését írja le.
+5. **JavaScript** - programozási nyelv egy objektumorientált, prototípus-alapú szkriptnyelv, amelyet weboldalakon elterjedten használnak.
 1. **PHP** - egy általános szerveroldali szkriptnyelv dinamikus weblapok készítésére.
-1. **PNG** - *Portable Network Graphics* képek tárolására, veszteségmentes tömörítésére alkalmas fájlformátum.
-1. **JPEG** - *Joint Photographic Experts Group* képek tárolására alkalmas fájlformátum.
-1. **HTTPS** - *HyperText Transfer Protocol Safe* egy URI-séma, amely biztonságos http kapcsolatot jelöl.
-1. **Kliens** - olyan számítógép vagy azon futó program, amelyik hozzáfér egy *(távoli)* szolgáltatáshoz, amelyet egy számítógép hálózathoz tartozó másik számítógép *(a szerver)* nyújt.
+2. **PNG** - *Portable Network Graphics* képek tárolására, veszteségmentes tömörítésére alkalmas fájlformátum.
+3. **JPEG** - *Joint Photographic Experts Group* képek tárolására alkalmas fájlformátum.
+4. **HTTPS** - *HyperText Transfer Protocol Safe* egy URI-séma, amely biztonságos http kapcsolatot jelöl.
+5. **Kliens** - olyan számítógép vagy azon futó program, amelyik hozzáfér egy *(távoli)* szolgáltatáshoz, amelyet egy számítógép hálózathoz tartozó másik számítógép *(a szerver)* nyújt.
