@@ -52,6 +52,9 @@ Azért a Pythonra esett a választás mert, gyors a benne való program fejleszt
 
 > Telepítési terv
 ---
+Webes alkalmazás:<br>
+&nbsp;&nbsp;	A webes felületre fejlesztett alkalmazást bármilyen böngészőben el lehet majd érni, külön szoftver nem kell hozzá.<br> 
+&nbsp;&nbsp;	A webszerverre közvetlenül az internetről kapcsolódnak rá a kliensek.<br>
 
 > Karbantartási terv
 ---
