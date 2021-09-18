@@ -31,8 +31,8 @@ Az alkalmazás hordozhatósági/hozzáférhetőségi szempontokból web platform
 A hálózaton található tűzfal <br>
 Nincsenek megvásárolt komponenseink <br>
 Fejlesztői eszközök: <br>
-&nbsp&nbsp	Notepad++; <br>
-&nbsp&nbsp	Visual studio code; <br>
+&nbsp;&nbsp;	Notepad++; <br>
+&nbsp;&nbsp;	Visual studio code; <br>
 
 > Architekturális terv
 ---
