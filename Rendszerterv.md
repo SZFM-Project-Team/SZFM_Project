@@ -42,6 +42,10 @@ Fejlesztői eszközök: <br>
 
 > Implementációs terv
 ---
+A webes felület főként php nyelven fog készülni. <br>
+Képes lesz felhasználni a Backend részen futó Python nyelven írt számolóprogramot. <br>
+Azért a Pythonra esett a választás mert, gyors a benne való program fejlesztés, áttekinthetőbb és könnyebben módosítható mint versenytársai, illetve ezen alkalmazás elkészítésére tökeletes <br>
+
 
 > Tesztterv
 ---
