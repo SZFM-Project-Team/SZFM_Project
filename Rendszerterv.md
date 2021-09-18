@@ -36,6 +36,10 @@ Fejlesztői eszközök: <br>
 
 > Architekturális terv
 ---
+Backend:<br>
+&nbsp;&nbsp;  A backendben egy python program fog futni amely a számolásokat végzi majd. <br>
+Web kliens:<br>
+&nbsp;&nbsp;  A web alkalmazás php nyelven készül el. <br> 
 
 > Adatbázis terv
 ---
