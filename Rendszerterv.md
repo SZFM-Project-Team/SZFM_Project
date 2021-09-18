@@ -27,6 +27,12 @@ Felhasználó: </br>
 
 > Fizikai környezet
 ---
+Az alkalmazás hordozhatósági/hozzáférhetőségi szempontokból web platformra készül, 
+A hálózaton található tűzfal
+Nincsenek megvásárolt komponenseink
+Fejlesztői eszközök:
+&nbsp&nbsp	Notepad++;
+&nbsp&nbsp	Visual studio code
 
 > Architekturális terv
 ---
