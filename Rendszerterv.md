@@ -4,6 +4,47 @@
 
 > Projektterv
 ---
+Projektszerepkörök, felelőségek:
+
+Project manager: Fiedler Norbert Béla
+
+Projektmunkások és felelőségek:
+
+Backend munkálatok: 
+- Fiedler Norbert Béla
+- Tari Levente
+- Horváth István
+- Naghi Patrick Mark
+- Szakács Ágnes
+
+Feladatuk a számológép műveleteinek implementálása php és JavaScript nyelven. 
+  
+Frontend munkálatok:
+- Fiedler Norbert Béla
+- Tari Levente
+- Horváth István
+- Naghi Patrick Mark
+- Szakács Ágnes
+  
+Feladatuk a számológép kinézetének minél stílusosabb és egyszerűbb kivitelezése CSS és HTML segítségével.
+
+# Ütemterv: 
+| Funkció | Feladat | Priorioritás | Becslés | Akt. becslés | Eltelt | Hátralévő
+| ------ | ------ | ------ | ------ | ------ | ------ | ------|
+| Követelmény specifikáció |  | 0 | 12 | 12 | 12 | 0 |
+| Funkcionális specifikáció |  | 0 | 12 | 12 | 12 | 0 |
+| Rendszerterv |  | 0 | 18 | 18 | 18 | 0 |
+| Műveletek implementálása | Összeadás | 1 | 4 | 4 | 0 | 4 |
+|  | Kivonás | 1 | 4 | 4 | 0 | 4 |
+|  | Szorzás | 1 | 4 | 4 | 0 | 4 |
+|  | Osztás | 1 | 4 | 4 | 0 | 4 |
+|  | Gyökvonás | 1 | 4 | 4 | 0 | 4 |
+|  | Hatványozás | 1 | 4 | 4 | 0 | 4 |
+| Weboldal grafikus megjelenítése| HTML | 1 | 3 | 3 | 0 | 3 |
+|  | CSS | 1 | 10 | 10 | 0 | 10 |
+| Teszt |  | 1 | 30 | 30 | 0 | 30 |
+| Projektvezetés |  | 2 | 30 | 30 | 0 | 30 |
+|  |  | Órák: | 139 | 139 | 42 | 97 |
 
 > Üzleti folyamatok modellje
 ---
