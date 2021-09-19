@@ -63,7 +63,7 @@ Feladatuk a számológép kinézetének minél stílusosabb és egyszerűbb kivi
 
 > Üzleti folyamatok modellje
 ---
-
+1. HELP ME!! :(
 > Követelmények
 ---
 - A weboldalnak egy számológépet kell hogy biztosítania.  
