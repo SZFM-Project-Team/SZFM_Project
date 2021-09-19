@@ -80,7 +80,7 @@ Ezek a teszt esetek pedig nem mások, mint:
 3. Megnyitható-e a weboldalunk linkje
 4. Több felületen is jó-e a megjelenést, nincsenek esetleges elcsúszások
 5. Teljes weboldal tesztelés
-+ Ebbe minden eddigi beletartozik, csak a végkifejlett lesz tesztelve egyben.
+>Ebbe minden eddigi beletartozik, csak a végkifejlett lesz tesztelve egyben.
 
 > Telepítési terv
 ---
