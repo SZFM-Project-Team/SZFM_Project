@@ -29,8 +29,8 @@ Frontend munkálatok:
 Feladatuk a számológép kinézetének minél stílusosabb és egyszerűbb kivitelezése CSS és HTML segítségével.
 
 # Ütemterv: 
-| Funkció | Feladat | Priorioritás | Becslés | Akt. becslés | Eltelt | Hátralévő
-| ------ | ------ | ------ | ------ | ------ | ------ | ------|
+| Funkció | Feladat | Prioritás | Becslés | Akt. becslés | Eltelt | Hátralévő
+| ------ | :------: | :------: | :------: | :------: | :------: | :------: |
 | Követelmény specifikáció |  | 0 | 12 | 12 | 12 | 0 |
 | Funkcionális specifikáció |  | 0 | 12 | 12 | 12 | 0 |
 | Rendszerterv |  | 0 | 18 | 18 | 18 | 0 |
@@ -45,7 +45,10 @@ Feladatuk a számológép kinézetének minél stílusosabb és egyszerűbb kivi
 | Teszt |  | 1 | 30 | 30 | 0 | 30 |
 | Projektvezetés |  | 2 | 30 | 30 | 0 | 30 |
 |  |  | Órák: | 139 | 139 | 42 | 97 |
-
+|  |  | Embernap: | 17.375 | 17.375 | 5.25 | 3.75 |
+| |  |  |  |  |  |  |
+| Napidíj: |  | 28 000 Ft |  |  |  |  |
+| Árajánlat: |  | 486 500 Ft |  |  |  |  |
 > Üzleti folyamatok modellje
 ---
 
