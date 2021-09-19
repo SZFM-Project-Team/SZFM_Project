@@ -40,7 +40,7 @@ Feladatuk a számológép kinézetének minél stílusosabb és egyszerűbb kivi
 |  | Osztás | 1 | 4 | 4 | 0 | 4 |
 |  | Gyökvonás | 1 | 4 | 4 | 0 | 4 |
 |  | Hatványozás | 1 | 4 | 4 | 0 | 4 |
-| Weboldal grafikus megjelenítése| HTML | 1 | 3 | 3 | 0 | 3 |
+| Weboldal grafikus megjelenítése | HTML | 1 | 3 | 3 | 0 | 3 |
 |  | CSS | 1 | 10 | 10 | 0 | 10 |
 | Teszt |  | 1 | 30 | 30 | 0 | 30 |
 | Projektvezetés |  | 2 | 30 | 30 | 0 | 30 |
@@ -91,6 +91,24 @@ Fejlesztői eszközök:
 
 > Architekturális terv
 ---
+A szoftver maga weboldalon fog megjelenni, így ebben az esetben az architektúráját két külön részre bontjuk szét.  
+  
+Az egyik része a **Bakckend** a másik pedig a **Frontend** lesz.  
+  
+A felhasználó kliens ezek közül csak a **Frontend** részével fog találkozni, míg a **Backend** része a webszerver adatbázisán fogja a műveleteket végrehajtani.  
+  
+A **Backend** részhez szükséges:  
+  
++ Adatbázis szerver, a szoftver ehhez a MySQL adatbázist fogja használni.
+  
++ Adatbázis szerverhez csatlakozó REST api, ami PHP alapú lesz.
+
++ Kliensekkel kommunikáló szövegek.
+
++ Számításokat végző Python/JavaScript kód, amit implementálunk.
+
+A **Frontend** részéhez:
+
 [//]: <> (Backend:)  
 [//]: <> (+ A backendben egy python program fog futni amely a számolásokat végzi majd.)
  
@@ -159,14 +177,15 @@ Ebbe minden eddigi beletartozik, csak a végkifejlett lesz tesztelve egyben.
 ---
 A szoftverünk egy webes alkalmazásként kerül megalkotásra így nem szükséges telepíteni semmilyen alkalmazást.  
 
+Maga a számológép egy webszerveren lesz elérhető, így a kliens oldalon mindössze ennyinek kell szerepelnie:  
 
-[//]: <> (Webes alkalmazás:  )
++ Egy böngésző amiben támogatott az adott weboldal elérése. (Google Chrome, Mozilla Firefox, Opera, stb.)  
 
-[//]: <> (+ A webes felületre fejlesztett alkalmazást bármilyen böngészőben el lehet majd érni.  )
++ Böngésző bővítmény nélkül is elérhető.
 
-[//]: <> (+ Külön szoftver nem kell hozzá.  )
++ Webszerver eléréséhez internetkapcsolat szükségeltetik.
 
-[//]: <> (+ A webszerverre közvetlenül az internetről kapcsolódnak rá a kliensek.  )
++ Elsősorban számítógépes környezet preferált, de reszponzív megoldás, telefonos megoldás működik.
 
 
 > Karbantartási terv
