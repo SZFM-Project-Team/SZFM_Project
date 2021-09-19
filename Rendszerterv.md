@@ -63,7 +63,9 @@ Feladatuk a számológép kinézetének minél stílusosabb és egyszerűbb kivi
 
 > Üzleti folyamatok modellje
 ---
-
+1. A Számok Kiadó szeretne egy webes számológépet, amit elsősorban az általános iskolai diákok könnyen és szívesen használnak majd.
+2. A számológéphez szükséges követelmények és elvárások tisztázása után, a fejlesztői csapat előreláthatólag 139 órányi munkával el tudja készíteni a kért szoftvert úgy,hogy az ügyfélt folyamatosan tájékoztatják a haladással kapcsolatban.  
+3. Amennyiben a szoftver elnyeri az ügyfél tetszését, kihelyezésre kerül az interneten is.
 > Követelmények
 ---
 - A weboldalnak egy számológépet kell hogy biztosítania.  
