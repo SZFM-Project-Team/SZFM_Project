@@ -126,23 +126,20 @@ A **Backend** részhez szükséges:
   
 + Adatbázis szerver, a szoftver ehhez a MySQL adatbázist fogja használni.
   
-+ Adatbázis szerverhez csatlakozó REST api, ami PHP alapú lesz.
-
-+ Kliensekkel kommunikáló szövegek.
-
-+ Számításokat végző Python/JavaScript kód, amit implementálunk.
-
-A **Frontend** részéhez:
-
-
-
-[//]: <> (Backend:)
-[//]: <> (+ A backendben egy python program fog futni amely a számolásokat végzi majd.)
- 
-[//]: <> (Web kliens:)
-
-[//]: <> (+ A web alkalmazás php nyelven készül el.  )
-
++ Adatbázis szerverhez csatlakozó REST api, ami PHP alapú lesz.  
+  
++ Kliensekkel kommunikáló szövegek.  
+  
++ Számításokat végző Python/JavaScript kód, amit implementálunk.  
+  
+A **Frontend** részéhez:  
+  
++ A számológép felépítésének ábrázolása ***HTML*** és ***CSS*** kóddal.  
+  
++ Kliens elérése a webszerverhez.  
+  
++ PHP funkciók hozzáadása és JavaScript funkciók.  
+  
 > Adatbázis terv
 ---
 A számológép webes része php-ban lesz megcsinálva, ezért egy alap MySQLi kapcsolatot létre kell hoznunk, ami a Rest api-t fogja használni majd.
