@@ -48,6 +48,23 @@ ezért adatbázisra jelen állás szerint nincsen szükség. Viszont esetleges t
 elképzelhető, hogy kelleni fog egy adatbázis, akkor elsősorban a felhasználókat kell tárolni, esetleg <br>
 a felhasználókhoz tartozó műveleti előzményeket ellehet tárolni. Ez a funkció meggyorsítaná sok <br>
 ember munkáját, tehát ezt a lehetőséget mindenképpen szem előtt tartjuk.
+
+Ezeket többféleképpen lehetséges modellezni, mi úgy terveznénk meg, hogy: <br>
+A felhasználókat tároló tábla tartalmazná: <br>
++ ID,
++ Felhasználónév,
++ Jelszó,
++ Email cím
+<br>
+A műveleti előzményeket tároló tábla tartalmazná: <br>
+
+
++ Felhasználónév,
++ Utolsó 10 művelet
+<br>
+
+Ezzel a két táblával a létfontosságú adatokat eltudnánk tárolni, így ezt az ötletet nem vetjük el.
+
 > Implementációs terv
 ---
 A webes felület főként php nyelven fog készülni. <br>
