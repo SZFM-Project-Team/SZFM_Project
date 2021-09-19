@@ -10,14 +10,14 @@ Project manager: Fiedler Norbert Béla
 
 Projektmunkások és felelőségek:
 
-Backend munkálatok: 
+Backend munkálatok:
 - Fiedler Norbert Béla
 - Tari Levente
 - Horváth István
 - Naghi Patrick Mark
 - Szakács Ágnes
 
-Feladatuk a számológép műveleteinek implementálása php és JavaScript nyelven. 
+Feladatuk a számológép műveleteinek implementálása php és JavaScript nyelven.
   
 Frontend munkálatok:
 - Fiedler Norbert Béla
@@ -28,7 +28,7 @@ Frontend munkálatok:
   
 Feladatuk a számológép kinézetének minél stílusosabb és egyszerűbb kivitelezése CSS és HTML segítségével.
 
-# Ütemterv: 
+# Ütemterv:
 | Funkció | Feladat | Priorioritás | Becslés | Akt. becslés | Eltelt | Hátralévő
 | ------ | ------ | ------ | ------ | ------ | ------ | ------|
 | Követelmény specifikáció |  | 0 | 12 | 12 | 12 | 0 |
@@ -53,62 +53,62 @@ Feladatuk a számológép kinézetének minél stílusosabb és egyszerűbb kivi
 ---
 - A weboldalnak egy számológépet kell hogy biztosítania.
 - A weboldalnak egy tutoriált (bemutatót) kell biztosítania.
-- A weboldalnak egy reklámfelületet kell biztosítania.    
+- A weboldalnak egy reklámfelületet kell biztosítania.
   
-funkcionális követelmények:  
+funkcionális követelmények:
 
 
-- A számológép biztosítsa a következő műveletekeket: összeadás, kivonás, osztás, szorzás, gyökvonás, hatványozás.  
+- A számológép biztosítsa a következő műveletekeket: összeadás, kivonás, osztás, szorzás, gyökvonás, hatványozás.
 - A felhasználó legyen képes bugok bejelentésére
-- A felhasználó számára legyen elérhető a tutoriál felület egy gomb megnyomásával.    
+- A felhasználó számára legyen elérhető a tutoriál felület egy gomb megnyomásával.
 
 
 > Funkcionális terv
 ---
-Rendszerszereplők:  
+Rendszerszereplők:
 
-+ Rendszergazda (ADMIN)  
++ Rendszergazda (ADMIN)
 
-+ Felhasználó  
++ Felhasználó
 
 
-Rendszerhasználati esetek és lefutásaik:  
+Rendszerhasználati esetek és lefutásaik:
 
-Rendszergazda:  
+Rendszergazda:
 
-+ Beléphet bármilyen szereplőként teljes hozzáférése van a rendszerhez  
++ Beléphet bármilyen szereplőként teljes hozzáférése van a rendszerhez
 
 	
-Felhasználó:  
+Felhasználó:
 
-+ Használhatja a webes alkalmazást, és annak minden funkcióját.  
++ Használhatja a webes alkalmazást, és annak minden funkcióját.
 
-+ Képes User-reportot küldeni amiben jelent bármilyen hibát/bugot az alkalmazással kapcsolatban.  
++ Képes User-reportot küldeni amiben jelent bármilyen hibát/bugot az alkalmazással kapcsolatban.
 
 
 > Fizikai környezet
 ---
-Az alkalmazás hordozhatósági/hozzáférhetőségi szempontokból web platformra készül.  
+Az alkalmazás hordozhatósági/hozzáférhetőségi szempontokból web platformra készül.
 
-A hálózaton található tűzfal.  
+A hálózaton található tűzfal.
 
-Nincsenek megvásárolt komponenseink.  
+Nincsenek megvásárolt komponenseink.
 
-Fejlesztői eszközök:  
+Fejlesztői eszközök:
 
-+ Notepad++; 
++ Notepad++;
 
-+ Visual studio code;  
++ Visual studio code;
 
 > Architekturális terv
 ---
-A szoftver maga weboldalon fog megjelenni, így ebben az esetben az architektúráját két külön részre bontjuk szét.  
+A szoftver maga weboldalon fog megjelenni, így ebben az esetben az architektúráját két külön részre bontjuk szét.
   
-Az egyik része a **Bakckend** a másik pedig a **Frontend** lesz.  
+Az egyik része a **Bakckend** a másik pedig a **Frontend** lesz.
   
-A felhasználó kliens ezek közül csak a **Frontend** részével fog találkozni, míg a **Backend** része a webszerver adatbázisán fogja a műveleteket végrehajtani.  
+A felhasználó kliens ezek közül csak a **Frontend** részével fog találkozni, míg a **Backend** része a webszerver adatbázisán fogja a műveleteket végrehajtani.
   
-A **Backend** részhez szükséges:  
+A **Backend** részhez szükséges:
   
 + Adatbázis szerver, a szoftver ehhez a MySQL adatbázist fogja használni.
   
@@ -122,77 +122,81 @@ A **Frontend** részéhez:
 
 
 
-[//]: <> (Backend:)  
+[//]: <> (Backend:)
 [//]: <> (+ A backendben egy python program fog futni amely a számolásokat végzi majd.)
  
-[//]: <> (Web kliens:)  
+[//]: <> (Web kliens:)
 
 [//]: <> (+ A web alkalmazás php nyelven készül el.  )
 
 > Adatbázis terv
 ---
-A számológépünk online felületen lesz elérhető, és mivel előzetes regisztrációt nem igényel, ezért adatbázisra jelen állás szerint nincsen szükség.  
+A számológép webes része php-ban lesz megcsinálva, ezért egy alap MySQLi kapcsolatot létre kell hoznunk, ami a Rest api-t fogja használni majd.
 
-Viszont esetleges továbbfejlesztés esetén elképzelhető, hogy kelleni fog egy adatbázis, akkor elsősorban a felhasználókat kell tárolni, esetleg a felhasználókhoz tartozó műveleti előzményeket ellehet tárolni.  
+Ez a szerveradatokat  tárolja majd nekünk. Ezt a kapcsolatot majd a php kódunkban fogjuk létrehozni, és alkalmazni.
 
-Ez a funkció meggyorsítaná sok ember munkáját, tehát ezt a lehetőséget mindenképpen szem előtt tartjuk.  
+Mivel előzetes regisztrációt nem igényel az oldal, ezért további adatbázisra jelen állás szerint nincsen szükség.
+
+Viszont esetleges továbbfejlesztés esetén elképzelhető, hogy kelleni fog egy adatbázis, akkor elsősorban a felhasználókat kell tárolni, esetleg a felhasználókhoz tartozó műveleti előzményeket ellehet tárolni.
+
+Ez a funkció meggyorsítaná sok ember munkáját, tehát ezt a lehetőséget mindenképpen szem előtt tartjuk.
   
-Ezeket többféleképpen lehetséges modellezni, mi úgy terveznénk meg, hogy:  
+Ezeket többféleképpen lehetséges modellezni, mi úgy terveznénk meg, hogy:
 
-A felhasználókat tároló tábla tartalmazná:  
+A felhasználókat tároló tábla tartalmazná:
 
-+ ID,  
++ ID,
 
-+ Felhasználónév,  
++ Felhasználónév,
 
-+ Jelszó,  
++ Jelszó,
 
-+ Email cím  
-
-  
-A műveleti előzményeket tároló tábla tartalmazná:  
-  
-+ Felhasználónév,  
-
-+ Utolsó 10 művelet  
++ Email cím
 
   
-Ezzel a két táblával a létfontosságú adatokat eltudnánk tárolni, így ezt az ötletet nem vetjük el.  
+A műveleti előzményeket tároló tábla tartalmazná:
+  
++ Felhasználónév,
+
++ Utolsó 10 művelet
+
+  
+Ezzel a két táblával a létfontosságú adatokat eltudnánk tárolni, így ezt az ötletet nem vetjük el.
   
 > Implementációs terv
 ---
-A webes felület főként php nyelven fog készülni.  
+A webes felület főként php nyelven fog készülni.
 
-Képes lesz felhasználni a Backend részen futó Python nyelven írt számolóprogramot.  
+Képes lesz felhasználni a Backend részen futó Python nyelven írt számolóprogramot.
 
-Azért a Pythonra esett a választás mert, gyors a benne való program fejlesztés, áttekinthetőbb és könnyebben módosítható mint versenytársai, illetve ezen alkalmazás elkészítésére tökeletes.  
+Azért a Pythonra esett a választás mert, gyors a benne való program fejlesztés, áttekinthetőbb és könnyebben módosítható mint versenytársai, illetve ezen alkalmazás elkészítésére tökeletes.
 
   
 > Tesztterv
 ---
-Minden alkalmazás életében nagyon fontos a tesztelés. Ezalól a mi számológépünk sem kivétel.  
+Minden alkalmazás életében nagyon fontos a tesztelés. Ezalól a mi számológépünk sem kivétel.
 
-Ezek a teszt esetek pedig nem mások, mint:  
+Ezek a teszt esetek pedig nem mások, mint:
   
-1. A backendben futó python program egyes elemei  
+1. A backendben futó python program egyes elemei
 
-2. Megfelelően működik-e a php programunk  
+2. Megfelelően működik-e a php programunk
 
-3. Megnyitható-e a weboldalunk linkje  
+3. Megnyitható-e a weboldalunk linkje
 
-4. Több felületen is jó-e a megjelenést, nincsenek esetleges elcsúszások  
+4. Több felületen is jó-e a megjelenést, nincsenek esetleges elcsúszások
 
-5. Teljes weboldal tesztelés  
+5. Teljes weboldal tesztelés
 
-Ebbe minden eddigi beletartozik, csak a végkifejlett lesz tesztelve egyben.  
+Ebbe minden eddigi beletartozik, csak a végkifejlett lesz tesztelve egyben.
   
 > Telepítési terv
 ---
-A szoftverünk egy webes alkalmazásként kerül megalkotásra így nem szükséges telepíteni semmilyen alkalmazást.  
+A szoftverünk egy webes alkalmazásként kerül megalkotásra így nem szükséges telepíteni semmilyen alkalmazást.
 
-Maga a számológép egy webszerveren lesz elérhető, így a kliens oldalon mindössze ennyinek kell szerepelnie:  
+Maga a számológép egy webszerveren lesz elérhető, így a kliens oldalon mindössze ennyinek kell szerepelnie:
 
-+ Egy böngésző amiben támogatott az adott weboldal elérése. (Google Chrome, Mozilla Firefox, Opera, stb.)  
++ Egy böngésző amiben támogatott az adott weboldal elérése. (Google Chrome, Mozilla Firefox, Opera, stb.)
 
 + Böngésző bővítmény nélkül is elérhető.
 
@@ -203,7 +207,7 @@ Maga a számológép egy webszerveren lesz elérhető, így a kliens oldalon min
 
 > Karbantartási terv
 ---
-A weboldal folyamatos üzemeltetése és karban tartása a következőket foglalja magában:  
+A weboldal folyamatos üzemeltetése és karban tartása a következőket foglalja magában:
 - A felhasználók által bejelentett bugok, hibák kijavítása.
 - Igény esetén a számológép funkcióinak bővítése.
 - A weboldalon megjelenő könyv hírdetések folyamatos frissítése.
