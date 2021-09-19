@@ -55,13 +55,11 @@ A felhasználókat tároló tábla tartalmazná: <br>
 + Felhasználónév,
 + Jelszó,
 + Email cím
-<br>
-A műveleti előzményeket tároló tábla tartalmazná: <br>
 
+A műveleti előzményeket tároló tábla tartalmazná: <br>
 
 + Felhasználónév,
 + Utolsó 10 művelet
-<br>
 
 Ezzel a két táblával a létfontosságú adatokat eltudnánk tárolni, így ezt az ötletet nem vetjük el.
 
