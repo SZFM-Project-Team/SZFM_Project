@@ -79,7 +79,7 @@ Ezek a teszt esetek pedig nem mások, mint:
 2. Megfelelően működik-e a php programunk
 3. Megnyitható-e a weboldalunk linkje
 4. Több felületen is jó-e a megjelenést, nincsenek esetleges elcsúszások
-5. Teljes weboldal tesztelés
+5. Teljes weboldal tesztelés  <br>
 Ebbe minden eddigi beletartozik, csak a végkifejlett lesz tesztelve egyben.
 
 > Telepítési terv
