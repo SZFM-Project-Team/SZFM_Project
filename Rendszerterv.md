@@ -146,43 +146,42 @@ A **Frontend** részéhez:
 > Adatbázis terv
 ---
 A számológép webes része php-ban lesz megcsinálva, ezért egy alap MySQLi kapcsolatot létre kell hoznunk, ami a Rest api-t fogja használni majd.
-
-Ez a szerveradatokat  tárolja majd nekünk. Ezt a kapcsolatot majd a php kódunkban fogjuk létrehozni, és alkalmazni.
-
-Mivel előzetes regisztrációt nem igényel az oldal, ezért további adatbázisra jelen állás szerint nincsen szükség.
-
-Viszont esetleges továbbfejlesztés esetén elképzelhető, hogy kelleni fog egy adatbázis, akkor elsősorban a felhasználókat kell tárolni, esetleg a felhasználókhoz tartozó műveleti előzményeket ellehet tárolni.
-
-Ez a funkció meggyorsítaná sok ember munkáját, tehát ezt a lehetőséget mindenképpen szem előtt tartjuk.
+  
+Ez a szerveradatokat  tárolja majd nekünk. Ezt a kapcsolatot majd a php kódunkban fogjuk létrehozni, és alkalmazni.  
+  
+Mivel előzetes regisztrációt nem igényel az oldal, ezért további adatbázisra jelen állás szerint nincsen szükség.  
+  
+Viszont esetleges továbbfejlesztés esetén elképzelhető, hogy kelleni fog egy adatbázis, akkor elsősorban a felhasználókat kell tárolni, esetleg a felhasználókhoz tartozó műveleti előzményeket ellehet tárolni.  
+  
+Ez a funkció meggyorsítaná sok ember munkáját, tehát ezt a lehetőséget mindenképpen szem előtt tartjuk.  
   
 Ezeket többféleképpen lehetséges modellezni, mi úgy terveznénk meg, hogy:
-
-A felhasználókat tároló tábla tartalmazná:
-
-+ ID,
-
-+ Felhasználónév,
-
-+ Jelszó,
-
-+ Email cím
   
-A műveleti előzményeket tároló tábla tartalmazná:
+A felhasználókat tároló tábla tartalmazná:  
   
-+ Felhasználónév,
-
-+ Utolsó 10 művelet
-
-Ezzel a két táblával a létfontosságú adatokat eltudnánk tárolni, így ezt az ötletet nem vetjük el.
++ ID,  
+  
++ Felhasználónév,  
+  
++ Jelszó,  
+  
++ Email cím  
+  
+A műveleti előzményeket tároló tábla tartalmazná:  
+  
++ Felhasználónév,  
+  
++ Utolsó 10 művelet  
+  
+Ezzel a két táblával a létfontosságú adatokat eltudnánk tárolni, így ezt az ötletet nem vetjük el.  
   
 > Implementációs terv
 ---
-A webes felület főként php nyelven fog készülni.
-
-Képes lesz felhasználni a Backend részen futó Python nyelven írt számolóprogramot.
-
-Azért a Pythonra esett a választás mert, gyors a benne való program fejlesztés, áttekinthetőbb és könnyebben módosítható mint versenytársai, illetve ezen alkalmazás elkészítésére tökeletes.
-
+A webes felület főként php nyelven fog készülni.  
+  
+Képes lesz felhasználni a Backend részen futó Python nyelven írt számolóprogramot.  
+  
+Azért a Pythonra esett a választás mert, gyors a benne való program fejlesztés, áttekinthetőbb és könnyebben módosítható mint versenytársai, illetve ezen alkalmazás elkészítésére tökeletes.  
   
 > Tesztterv
 ---
@@ -204,27 +203,29 @@ Ebbe minden eddigi beletartozik, csak a végkifejlett lesz tesztelve egyben.
   
 > Telepítési terv
 ---
-A szoftverünk egy webes alkalmazásként kerül megalkotásra így nem szükséges telepíteni semmilyen alkalmazást.
-
-Maga a számológép egy webszerveren lesz elérhető, így a kliens oldalon mindössze ennyinek kell szerepelnie:
-
-+ Egy böngésző amiben támogatott az adott weboldal elérése. (Google Chrome, Mozilla Firefox, Opera, stb.)
-
-+ Böngésző bővítmény nélkül is elérhető.
-
-+ Webszerver eléréséhez internetkapcsolat szükségeltetik.
-
-+ Elsősorban számítógépes környezet preferált, de reszponzív megoldás, telefonos megoldás működik.
-
-
+A szoftverünk egy webes alkalmazásként kerül megalkotásra így nem szükséges telepíteni semmilyen alkalmazást.  
+  
+Maga a számológép egy webszerveren lesz elérhető, így a kliens oldalon mindössze ennyinek kell szerepelnie:  
+  
++ Egy böngésző amiben támogatott az adott weboldal elérése. (Google Chrome, Mozilla Firefox, Opera, stb.)  
+  
++ Böngésző bővítmény nélkül is elérhető.  
+  
++ Webszerver eléréséhez internetkapcsolat szükségeltetik.  
+  
++ Elsősorban számítógépes környezet preferált, de reszponzív megoldás, telefonos megoldás működik.  
+  
 > Karbantartási terv
 ---
-A weboldal folyamatos üzemeltetése és karban tartása a következőket foglalja magában:
+A weboldal folyamatos üzemeltetése és karban tartása a következőket foglalja magában:  
+  
 - A felhasználók által bejelentett bugok, hibák kijavítása.
+  
 - Igény esetén a számológép funkcióinak bővítése.
+  
 - A weboldalon megjelenő könyv hírdetések folyamatos frissítése.
-- A böngészők újabb verzióival való kompatibilitás.
-
-
+  
+- A böngészők újabb verzióival való kompatibilitás.  
+  
 > Fogalomtár
 ---
