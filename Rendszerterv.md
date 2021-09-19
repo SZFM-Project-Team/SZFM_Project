@@ -66,55 +66,54 @@ Feladatuk a számológép kinézetének minél stílusosabb és egyszerűbb kivi
 
 > Követelmények
 ---
-- A weboldalnak egy számológépet kell hogy biztosítania.
-- A weboldalnak egy tutoriált (bemutatót) kell biztosítania.
+- A weboldalnak egy számológépet kell hogy biztosítania.  
+  
+- A weboldalnak egy tutoriált (bemutatót) kell biztosítania.  
+  
 - A weboldalnak egy reklámfelületet kell biztosítania.
   
-funkcionális követelmények:
-
-
-- A számológép biztosítsa a következő műveletekeket: összeadás, kivonás, osztás, szorzás, gyökvonás, hatványozás.
-- A felhasználó legyen képes bugok bejelentésére
-- A felhasználó számára legyen elérhető a tutoriál felület egy gomb megnyomásával.
-
-
+Funkcionális követelmények:  
+  
+- A számológép biztosítsa a következő műveletekeket: összeadás, kivonás, osztás, szorzás, gyökvonás, hatványozás.  
+  
+- A felhasználó legyen képes bugok bejelentésére  
+  
+- A felhasználó számára legyen elérhető a tutoriál felület egy gomb megnyomásával.  
+  
 > Funkcionális terv
 ---
-Rendszerszereplők:
-
-+ Rendszergazda (ADMIN)
-
-+ Felhasználó
-
-
-Rendszerhasználati esetek és lefutásaik:
-
-Rendszergazda:
-
-+ Beléphet bármilyen szereplőként teljes hozzáférése van a rendszerhez
-
-	
-Felhasználó:
-
-+ Használhatja a webes alkalmazást, és annak minden funkcióját.
-
-+ Képes User-reportot küldeni amiben jelent bármilyen hibát/bugot az alkalmazással kapcsolatban.
-
-
+Rendszerszereplők:  
+  
++ Rendszergazda (ADMIN)  
+  
++ Felhasználó  
+  
+Rendszerhasználati esetek és lefutásaik:  
+  
+Rendszergazda:  
+  
++ Beléphet bármilyen szereplőként teljes hozzáférése van a rendszerhez  
+  
+Felhasználó:  
+  
++ Használhatja a webes alkalmazást, és annak minden funkcióját.  
+  
++ Képes User-reportot küldeni amiben jelent bármilyen hibát/bugot az alkalmazással kapcsolatban.  
+  
 > Fizikai környezet
 ---
-Az alkalmazás hordozhatósági/hozzáférhetőségi szempontokból web platformra készül.
-
-A hálózaton található tűzfal.
-
-Nincsenek megvásárolt komponenseink.
-
-Fejlesztői eszközök:
-
-+ Notepad++;
-
-+ Visual studio code;
-
+Az alkalmazás hordozhatósági/hozzáférhetőségi szempontokból web platformra készül.  
+  
+A hálózaton található tűzfal.  
+  
+Nincsenek megvásárolt komponenseink.  
+  
+Fejlesztői eszközök:  
+  
++ Notepad++;  
+  
++ Visual studio code;  
+  
 > Architekturális terv
 ---
 A szoftver maga weboldalon fog megjelenni, így ebben az esetben az architektúráját két külön részre bontjuk szét.
@@ -167,7 +166,6 @@ A felhasználókat tároló tábla tartalmazná:
 + Jelszó,
 
 + Email cím
-
   
 A műveleti előzményeket tároló tábla tartalmazná:
   
@@ -175,7 +173,6 @@ A műveleti előzményeket tároló tábla tartalmazná:
 
 + Utolsó 10 művelet
 
-  
 Ezzel a két táblával a létfontosságú adatokat eltudnánk tárolni, így ezt az ötletet nem vetjük el.
   
 > Implementációs terv
