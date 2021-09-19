@@ -9,36 +9,46 @@ A felületen legyen képes "játékos", vizuális módon, könnyen érthetően, 
   
 A számológép legyen képes a következő funkciók ellátására: összeadás, kivonás, osztás, szorzás, gyökvonás, hatványozás.  
   
-A felület biztosítson a felhasználó számára egy tutoriált, bemutatót arról hogy hogyan leeht használni a számológépet.  
+A felület biztosítson a felhasználó számára egy tutoriált/bemutatót arról, hogy hogyan lehet használni a számológépet.  
   
 A felületen legyen kialakítva egy részleg ahol az iskola matematika könyveit lehet reklámozni.  
 
 > Projektterv
 ---
-Projektszerepkörök, felelőségek:
+## Projektszerepkörök, felelőségek:
 
-Project manager: Fiedler Norbert Béla
-
-Projektmunkások és felelőségek:
-
-Backend munkálatok:
-- Fiedler Norbert Béla
-- Tari Levente
-- Horváth István
-- Naghi Patrick Mark
-- Szakács Ágnes
-
-Feladatuk a számológép műveleteinek implementálása php és JavaScript nyelven.
+Projekt menedzser: Fiedler Norbert Béla  
   
-Frontend munkálatok:
-- Fiedler Norbert Béla
-- Tari Levente
-- Horváth István
-- Naghi Patrick Mark
-- Szakács Ágnes
+Projektmunkások és felelőségek:  
   
-Feladatuk a számológép kinézetének minél stílusosabb és egyszerűbb kivitelezése CSS és HTML segítségével.
+**Backend** munkálatok:
+  
+- Fiedler Norbert Béla  
+  
+- Tari Levente  
+  
+- Horváth István  
+  
+- Naghi Patrick Mark  
+  
+- Szakács Ágnes  
 
+Feladatuk a számológép műveleteinek implementálása php és JavaScript nyelven.  
+  
+**Frontend** munkálatok:  
+  
+- Fiedler Norbert Béla  
+  
+- Tari Levente  
+  
+- Horváth István  
+  
+- Naghi Patrick Mark  
+  
+- Szakács Ágnes  
+  
+Feladatuk a számológép kinézetének minél stílusosabb és egyszerűbb kivitelezése CSS és HTML segítségével.  
+  
 # Ütemterv:
 | Funkció | Feladat | Prioritás | Becslés | Akt. becslés | Eltelt | Hátralévő
 | ------ | :------: | :------: | :------: | :------: | :------: | :------: |
@@ -60,12 +70,15 @@ Feladatuk a számológép kinézetének minél stílusosabb és egyszerűbb kivi
 | |  |  |  |  |  |  |
 | Napidíj: |  | 28 000 Ft |  |  |  |  |
 | Árajánlat: |  | 486 500 Ft |  |  |  |  |
-
+  
 > Üzleti folyamatok modellje
 ---
-1. A Számok Kiadó szeretne egy webes számológépet, amit elsősorban az általános iskolai diákok könnyen és szívesen használnak majd.
-2. A számológéphez szükséges követelmények és elvárások tisztázása után, a fejlesztői csapat előreláthatólag 139 órányi munkával el tudja készíteni a kért szoftvert úgy,hogy az ügyfélt folyamatosan tájékoztatják a haladással kapcsolatban.  
-3. Amennyiben a szoftver elnyeri az ügyfél tetszését, kihelyezésre kerül az interneten is.
+1. A Számok Kiadó szeretne egy webes számológépet, amit elsősorban az általános iskolai diákok könnyen és szívesen használnak majd.  
+  
+2. A számológéphez szükséges követelmények és elvárások tisztázása után, a fejlesztői csapat előreláthatólag 139 órányi munkával el tudja készíteni a kért szoftvert úgy, hogy az ügyfélt folyamatosan tájékoztatják a haladással kapcsolatban.  
+  
+3. Amennyiben a szoftver elnyeri az ügyfél tetszését, kihelyezésre kerül az interneten is.  
+  
 > Követelmények
 ---
 - A weboldalnak egy számológépet kell hogy biztosítania.  
@@ -144,9 +157,11 @@ A **Frontend** részéhez:
   
 > Adatbázis terv
 ---
-A számológép webes része php-ban lesz megcsinálva, ezért egy alap MySQLi kapcsolatot létre kell hoznunk, ami a Rest api-t fogja használni majd.
+A számológép webes része php-ban lesz megcsinálva, ezért egy alap MySQL kapcsolatot létre kell hoznunk, ami a REST api-t fogja használni majd.
   
-Ez a szerveradatokat  tárolja majd nekünk. Ezt a kapcsolatot majd a php kódunkban fogjuk létrehozni, és alkalmazni.  
+Ez a szerveradatokat  tárolja majd nekünk. 
+  
+Ezt a kapcsolatot majd a php kódunkban fogjuk létrehozni, és alkalmazni.  
   
 Mivel előzetes regisztrációt nem igényel az oldal, ezért további adatbázisra jelen állás szerint nincsen szükség.  
   
@@ -178,7 +193,7 @@ Ezzel a két táblával a létfontosságú adatokat eltudnánk tárolni, így ez
 ---
 A webes felület főként php nyelven fog készülni.  
   
-Képes lesz felhasználni a Backend részen futó Python nyelven írt számolóprogramot.  
+Képes lesz felhasználni a **Backend** részen futó Python nyelven írt számolóprogramot.  
   
 Azért a Pythonra esett a választás mert, gyors a benne való program fejlesztés, áttekinthetőbb és könnyebben módosítható mint versenytársai, illetve ezen alkalmazás elkészítésére tökeletes.  
   
@@ -229,4 +244,19 @@ A weboldal folyamatos üzemeltetése és karban tartása a következőket foglal
 > Fogalomtár
 ---
 1. **Reszponzív felület** - Mobilon, Tableten, *PC*-n igazodik a képernyőhöz a felület mérete, azaz több eszközön is probléma nélkül üzemelhet.”  
-2. 
+  
+2. **PHP** - egy általános szerveroldali szkriptnyelv dinamikus weblapok készítésére.  
+  
+3. **Webszerver** - egy kiszolgáló, mely elérhetővé teszi a helyileg (esetleg más kiszolgálón) tárolt weblapokat a *HTTP* protokollon keresztül.  
+  
+4. **HTML** - angolul: *HyperText Markup Language*=hiperszöveges jelölőnyelv, egy leíró nyelv, melyet weboldalak készítéséhez fejlesztettek ki, és mára már internetes szabvánnyá vált a *W3C* (World Wide Web Consortium) támogatásával.  
+  
+5. **CSS** - Cascading Style Sheets, magyarul: lépcsőzetes stíluslapok, a számítástechnikában egy stílusleíró nyelv, mely a *HTML* vagy *XHTML* típusú strukturált dokumentumok megjelenését írja le.  
+  
+6. **JavaScript** - programozási nyelv egy objektumorientált, prototípus-alapú szkriptnyelv, amelyet weboldalakon elterjedten használnak. 
+
+7. **Verzió** - Verziókezelés alatt több verzióval rendelkező adatok kezelését értjük.
+
+8. **ID** - Angolul Identity Document, vagyis azonosító dokumentum, amivel azonosítjuk a felhasználót vagy egy konkrét embert.  
+  
+9. **Kliens** - olyan számítógép vagy azon futó program, amelyik hozzáfér egy *(távoli)* szolgáltatáshoz, amelyet egy számítógép hálózathoz tartozó másik számítógép *(a szerver)* nyújt.  
