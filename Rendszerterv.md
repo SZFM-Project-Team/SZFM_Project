@@ -50,13 +50,13 @@ a felhasználókhoz tartozó műveleti előzményeket ellehet tárolni. Ez a fun
 ember munkáját, tehát ezt a lehetőséget mindenképpen szem előtt tartjuk.
 
 Ezeket többféleképpen lehetséges modellezni, mi úgy terveznénk meg, hogy: <br>
-A felhasználókat tároló tábla tartalmazná: <br>
+A felhasználókat tároló tábla tartalmazná:
 + ID,
 + Felhasználónév,
 + Jelszó,
 + Email cím
 
-A műveleti előzményeket tároló tábla tartalmazná: <br>
+A műveleti előzményeket tároló tábla tartalmazná:
 
 + Felhasználónév,
 + Utolsó 10 művelet
