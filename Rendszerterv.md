@@ -27,7 +27,7 @@ Felhasználó: </br>
 
 > Fizikai környezet
 ---
-Az alkalmazás hordozhatósági/hozzáférhetőségi szempontokból web platformra készül. <br> 
+Az alkalmazás hordozhatósági/hozzáférhetőségi szempontokból web platformra készül. <br>
 A hálózaton található tűzfal <br>
 Nincsenek megvásárolt komponenseink <br>
 Fejlesztői eszközök: <br>
@@ -39,11 +39,15 @@ Fejlesztői eszközök: <br>
 Backend:<br>
 &nbsp;&nbsp;  A backendben egy python program fog futni amely a számolásokat végzi majd. <br>
 Web kliens:<br>
-&nbsp;&nbsp;  A web alkalmazás php nyelven készül el. <br> 
+&nbsp;&nbsp;  A web alkalmazás php nyelven készül el. <br>
 
 > Adatbázis terv
 ---
-
+A számológépünk online felületen lesz elérhető, és mivel előzetes regisztrációt nem igényel, <br>
+ezért adatbázisra jelen állás szerint nincsen szükség. Viszont esetleges továbbfejlesztés esetén <br>
+elképzelhető, hogy kelleni fog egy adatbázis, akkor elsősorban a felhasználókat kell tárolni, esetleg <br>
+a felhasználókhoz tartozó műveleti előzményeket ellehet tárolni. Ez a funkció meggyorsítaná sok <br>
+ember munkáját, tehát ezt a lehetőséget mindenképpen szem előtt tartjuk.
 > Implementációs terv
 ---
 A webes felület főként php nyelven fog készülni. <br>
@@ -58,7 +62,7 @@ Azért a Pythonra esett a választás mert, gyors a benne való program fejleszt
 ---
 Webes alkalmazás:<br>
 &nbsp;&nbsp;	A webes felületre fejlesztett alkalmazást bármilyen böngészőben el lehet majd érni. <br>
-&nbsp;&nbsp;	Külön szoftver nem kell hozzá.<br> 
+&nbsp;&nbsp;	Külön szoftver nem kell hozzá.<br>
 &nbsp;&nbsp;	A webszerverre közvetlenül az internetről kapcsolódnak rá a kliensek.<br>
 
 > Karbantartási terv
