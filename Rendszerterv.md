@@ -226,3 +226,5 @@ A weboldal folyamatos üzemeltetése és karban tartása a következőket foglal
   
 > Fogalomtár
 ---
+1. **Reszponzív felület** - Mobilon, Tableten, *PC*-n igazodik a képernyőhöz a felület mérete, azaz több eszközön is probléma nélkül üzemelhet.”  
+2. 
