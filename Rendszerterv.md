@@ -211,6 +211,12 @@ Maga a számológép egy webszerveren lesz elérhető, így a kliens oldalon min
 
 > Karbantartási terv
 ---
+A weboldal folyamatos üzemeltetése és karban tartása a következőket foglalja magában:  
+- A felhasználók által bejelentett bugok, hibák kijavítása.
+- Igény esetén a számológép funkcióinak bővítése.
+- A weboldalon megjelenő könyv hírdetések folyamatos frissítése.
+- A böngészők újabb verzióival való kompatibilitás.
+
 
 > Fogalomtár
 ---
