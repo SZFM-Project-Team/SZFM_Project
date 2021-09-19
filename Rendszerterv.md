@@ -51,6 +51,17 @@ Feladatuk a számológép kinézetének minél stílusosabb és egyszerűbb kivi
 
 > Követelmények
 ---
+- A weboldalnak egy számológépet kell hogy biztosítania.
+- A weboldalnak egy tutoriált (bemutatót) kell biztosítania.
+- A weboldalnak egy reklámfelületet kell biztosítania.    
+  
+funkcionális követelmények:  
+
+
+- A számológép biztosítsa a következő műveletekeket: összeadás, kivonás, osztás, szorzás, gyökvonás, hatványozás.  
+- A felhasználó legyen képes bugok bejelentésére
+- A felhasználó számára legyen elérhető a tutoriál felület egy gomb megnyomásával.    
+
 
 > Funkcionális terv
 ---
@@ -192,6 +203,12 @@ Maga a számológép egy webszerveren lesz elérhető, így a kliens oldalon min
 
 > Karbantartási terv
 ---
+A weboldal folyamatos üzemeltetése és karban tartása a következőket foglalja magában:  
+- A felhasználók által bejelentett bugok, hibák kijavítása.
+- Igény esetén a számológép funkcióinak bővítése.
+- A weboldalon megjelenő könyv hírdetések folyamatos frissítése.
+- A böngészők újabb verzióival való kompatibilitás.
+
 
 > Fogalomtár
 ---
