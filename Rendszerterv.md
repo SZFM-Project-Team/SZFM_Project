@@ -1,6 +1,13 @@
 # Rendszerterv
 > A rendszer célja
 ---
+A rendszer célja, hogy a felhasználó (főként az iskola diákjai) számára létrehozzunk egy olyan felületet, amely a lehető legegyszerűbb módon elérhető, és használható.  
+Legyen elérhető bármilyen eszközről, legyen az PC, laptop, mobiltelefon, tablet.  
+A felületen legyen képes "játékos", vizuális módon, könnyen érthetően, intuitívan használható számológépet biztosítani.  
+A számológép legyen képes a következő funkciók ellátására: összeadás, kivonás, osztás, szorzás, gyökvonás, hatványozás.  
+A felület biztosítson a felhasználó számára egy tutoriált, bemutatót arról hogy hogyan leeht használni a számológépet.  
+A felületen legyen kialakítva egy részleg ahol az iskola matematika könyveit lehet reklámozni.
+
 
 > Projektterv
 ---
