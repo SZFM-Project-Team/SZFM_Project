@@ -97,11 +97,15 @@ Rendszergazda:
 + Beléphet bármilyen szereplőként teljes hozzáférése van a rendszerhez  
   
 Felhasználó:  
+
++ Képes regisztrálni magát a weboldalon 
   
-+ Használhatja a webes alkalmazást, és annak minden funkcióját.  
++ Képes bejelentkezni a weboldalon a saját adataival(ID, felhasználónév, email cím, jelszó).
+  
++ Használhatja a webes alkalmazást, és annak minden funkcióját(számológép, tutorial, reklámfelület.).  
   
 + Képes User-reportot küldeni amiben jelent bármilyen hibát/bugot az alkalmazással kapcsolatban.  
-  
+
 > Fizikai környezet
 ---
 Az alkalmazás hordozhatósági/hozzáférhetőségi szempontokból web platformra készül.  
@@ -176,7 +180,11 @@ Ezzel a két táblával a létfontosságú adatokat eltudnánk tárolni, így ez
   
 > Implementációs terv
 ---
-A webes felület főként php nyelven fog készülni.  
+A webes felület php, javascript és HTML  nyelven fog készülni.
+
+A weboldal designolása CSS ben lesz végrehajtva.
+
+Ezeket a technológiákat amennyire csak lehet külön fájlokba írva készítjük, és úgy fogjuk egymáshoz csatolni a jobb átláthatóság, könnyebb változtathatóság, és könnyebb bővítés érdekében
   
 Képes lesz felhasználni a Backend részen futó Python nyelven írt számolóprogramot.  
   
