@@ -9,6 +9,16 @@
 </head>
 
 <body>
+
+    <script>
+
+    function WriteToInput(num)
+    {
+        var d = document.getElementById("input-line");
+        d.innerHTML += String(num);
+    }
+
+    </script>
     
     <section id="section-1" class="site-title site-header" style="height: 100px; background-color: red;">
         
@@ -16,8 +26,7 @@
 
     <section id="section-2" class="numbers-line" style="height: 100px; background-color: gray;">
         <div class="input-line">
-            <span class="input-line-inner">
-
+            <span id="input-line" class="input-line-inner">
             </span>
         </div>
     </section>
@@ -26,7 +35,7 @@
         <div class="number-panel" style="width: 27%; height: 600px; background-color: blue;">
             <table>
                 <tr class="number-panel-first">
-                    <td><button type="button" class="button-7"></button></td>
+                    <td><button onClick="WriteToInput(7)" type="button" class="button-7"></button></td>
                     <td><button type="button" class="button-8"></button></td>
                     <td><button type="button" class="button-9"></button></td>
                 </tr>
