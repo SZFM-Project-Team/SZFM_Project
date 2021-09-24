@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<link href='https://fonts.googleapis.com/css?family=Creepster' rel='stylesheet'>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -24,17 +25,18 @@
 
     </script>
     
-    <section id="section-1" class="site-title site-header" style="height: 100px; background-color: red;">
-        
+    <section id="section-1" class="" style="height: 100px;">
+        <h1>PANDA CALCULATOR</h1>
     </section>
 
-    <section id="section-2" class="numbers-line" style="height: 100px; background-color: gray;">
+    <section id="section-2" class="numbers-line" style="height: 100px;">
         <div class="input-line">
             <span id="input-line" class="input-line-inner">
             </span>
         </div>
     </section>
-
+   
+   
     <section id="section-3" style="height: 600px; display: flex;">
         <div class="number-panel" style="width: 27%; height: 600px; background-color: blue;">
             <table>
