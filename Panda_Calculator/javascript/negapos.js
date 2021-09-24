@@ -1,22 +1,28 @@
 //Ez a függvény előjelváltást végez
-export function change_sign(a){
-    if(typeof(a) == "number"){
+export function change_sign(a)
+{
+    if(typeof(a) == "number")
+    {
         //Negatív esetén
-        if (a < 0){
+        if (a < 0)
+        {
             let result;
             result = Math.abs(a);
             return result;
         }
-        else if(a > 0){
+        else if(a > 0)
+        {
             let result;
             result = a*(-1);
             return result;
         }
-        else{
+        else
+        {
             return a;
         }
     }
-    else{
+    else
+    {
         //Hiba lépett fel
         alert("Nem megfelelő input")
     }
