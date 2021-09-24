@@ -1,5 +1,5 @@
 // Ez a függvény az összeadás műveletet végzi
-export function Addition(x,y)
+function Addition(x,y)
 {
 	if(typeof(x) == "number"&&
 	   typeof(y) == "number")
@@ -10,8 +10,8 @@ export function Addition(x,y)
 			return result;
 		}
 		else
-		(
+		{
 			//Hibás adat lett megadva
 			alert("Az input nem 'szám' típusú!!");
-		)
+		}
 }
