@@ -11,54 +11,41 @@
 
 <body>
 
-    <script>
+    <script type="text/javascript" src="./javascript/square.js"></script>
 
-    import { square } from './square';
 
-    console.log(square(5));
-
-    function WriteToInput(num)
-    {
-        var d = document.getElementById("input-line");
-        d.innerHTML += String(num);
-    }
-
-    </script>
     
-    <section id="section-1" class="" style="height: 100px;">
-        <h1>PANDA CALCULATOR</h1>
-    </section>
+    <h1>PANDA CALCULATOR</h1>
 
-    <section id="section-2" class="numbers-line" style="height: 100px;">
-        <div class="input-line">
-            <span id="input-line" class="input-line-inner">
-            </span>
-        </div>
-    </section>
+    <div class="input-line">
+        <form name="cal">
+            <input type="text" name="display">     
+        </form>
+    </div>
    
    
     <section id="section-3" style="height: 600px; display: flex;">
         <div class="number-panel" style="width: 27%; height: 600px; background-color: blue;">
             <table>
                 <tr class="number-panel-first">
-                    <td><button onClick="WriteToInput(7)" type="button" class="button-7"></button></td>
-                    <td><button type="button" class="button-8"></button></td>
-                    <td><button type="button" class="button-9"></button></td>
+                    <td><input value="7" onClick="cal.display.value += '7'" type="button"></td>
+                    <td><input value="8" onClick="cal.display.value = square(parseInt(cal.display.value)).toString();" type="button"></td>
+                    <td><input value="9" type="button"></td>
                 </tr>
                 <tr class="number-panel-second">
-                    <td><button type="button" class="button-4"></button></td>
-                    <td><button type="button" class="button-5"></button></td>
-                    <td><button type="button" class="button-6"></button></td>
+                    <td><input value="4" type="button"></td>
+                    <td><input value="5" type="button"></td>
+                    <td><input value="6" type="button"></td>
                 </tr>
                 <tr class="number-panel-third">
-                    <td><button type="button" class="button-1"></button></td>
-                    <td><button type="button" class="button-2"></button></td>
-                    <td><button type="button" class="button-3"></button></td>
+                    <td><input value="1" type="button"></td>
+                    <td><input value="2" type="button"></td>
+                    <td><input value="3" type="button"></td>
                 </tr>
                 <tr class="number-panel-fourth">
-                    <td><button type="button" class="button-plus-minus"></button></td>
-                    <td><button type="button" class="button-0"></button></td>
-                    <td><button type="button" class="button-point"></button></td>
+                    <td><input value="+/-" type="button"></td>
+                    <td><input value="0" type="button"></td>
+                    <td><input value="." type="button"></td>
                 </tr>
             </table>
         </div>
@@ -90,9 +77,10 @@
                 </tr>
             </table>
         </div>
+    
 
         <div class="panda-logo" style="width: 40%; height: 600px; background-color: yellow;">
-            <img src="" />
+            <img src="panda.png" />
         </div>
 
     </section>
