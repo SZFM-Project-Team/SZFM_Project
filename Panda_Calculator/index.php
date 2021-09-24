@@ -12,6 +12,10 @@
 
     <script>
 
+    import { square } from './square';
+
+    console.log(square(5));
+
     function WriteToInput(num)
     {
         var d = document.getElementById("input-line");
