@@ -1,5 +1,5 @@
 //Ez a függvény egy számnak a négyzetre emelését végzi el
-export function square(a){
+function square(a){
     if(typeof(a) == "number"){
         //Négyzetre emelés
         let result;
