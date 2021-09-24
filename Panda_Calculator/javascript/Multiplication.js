@@ -1,5 +1,5 @@
 // Ez a függvény az szorzás műveletet végzi
-export function Multiplication(x,y)
+function Multiplication(x,y)
 {
 	if(typeof(x) == "number"&&
 	   typeof(y) == "number")
@@ -10,8 +10,8 @@ export function Multiplication(x,y)
 			return result;
 		}
 		else
-		(
+		{
 			//Hibás adat lett megadva
 			alert("Az input nem 'szám' típusú!!");
-		)
+		}
 }
