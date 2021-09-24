@@ -1,5 +1,5 @@
 //Ez a függvény a négyzetgyökvonást végzi el
-export function sqrt(a){
+function sqrt(a){
     if(typeof(a) == "number" ){
         //Négyzetgyökvonás
         let result;
