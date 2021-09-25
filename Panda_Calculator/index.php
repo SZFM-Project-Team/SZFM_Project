@@ -22,6 +22,10 @@
 
         function operationCheck(oper) 
         {
+            if (oper == 0)
+            {
+                break;
+            }
             switch oper:
                 case 1:
                     
@@ -69,7 +73,7 @@
         <div class="operation-panel" style="width: 27%; height: 600px; background-color: purple;">
             <table>
                 <tr class="operation-panel-first">
-                    <td><input type="button" value=" x " onClick="x = cal.display.value; cal.display.value = '';"></td>
+                    <td><input type="button" value=" x " onClick="x = cal.display.value; cal.display.value = ''; operationCheck();"></td>
                     <td><input type="button" value=" / " onClick=""></td>
                     <td><input type="button" value=" % " onClick=""></td>
                 </tr>
