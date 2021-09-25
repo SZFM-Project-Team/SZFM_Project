@@ -71,8 +71,8 @@
     </div>
    
     <section id="section-3" style="height: 600px; display: flex;">
-        <div class="number-panel" style="width: 27%; height: 600px; background-color: blue;">
-            <table>
+        <div class="container1">
+            <table class="center">
                 <tr class="number-panel-first">
                     <!-- operation code: 97 -->
                     <td><input value=" 7 " onClick="appendNumber('7'); " type="button"class="button-style"></td>
@@ -111,8 +111,8 @@
         <div class="grey-line"></div>
         </div>
 
-        <div class="operation-panel" style="width: 27%; height: 600px; background-color: purple;">
-            <table>
+        <div class="container3">
+            <table class="center">
                 <tr class="operation-panel-first">
                     <!-- operation code: 1 -->
                     <td><input type="button" value=" * " onClick="operationCheck(1); console.log(operation);" class="button-style"></td>
