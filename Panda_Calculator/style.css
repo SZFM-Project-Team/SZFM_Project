@@ -15,7 +15,7 @@
 
 .text-block {
   position: absolute;
-  top: 1em;
+  top: 0.5em;
   left: 1.4em;
   color: white;
   background-color: none;
@@ -42,10 +42,11 @@
 
 .container2 {
   width: 10%;
-  height: 30%;
-  background-color: white;
+  height: 50%;
+  background-color: whiredte;
   text-align: center;
   position: relative;
+  background-color: aquamarine;
 }
 .grey-line{
   border-left: 6px solid rgb(230, 222, 222);;
@@ -58,21 +59,42 @@
 .container1{
   float:left;
   width: 30%;
-  height: 30%;
-  background-color: black;
+  height: 50%;
+  background-color: aqua;
+  position: relative; 
+ 
 }
 
 .container3{
   float:left;
   width: 30%;
-  height: 30%;
+  height:50%;
   background-color: brown;
+  position: relative;
+}
+
+table.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%) 
+  
+}
+
+.button-style{
+  background-color: rgb(230, 222, 222);
+  box-shadow:  0px -2px 3px rgb(145, 144, 144);
+  font-size: 1.8em;
+  border-radius: 0;
+  border: 0;
 }
 
 .panda-logo {
 
   width: 30%;
-  height: 30%;
+  height: 50%;
   background-color: green;
   cursor: pointer;
   float: left;
