@@ -16,15 +16,44 @@
     <link rel="stylesheet" href="style.css">
     <title>Panda Calculator</title>
 </head>
-
 <body>
 
     <script>
         let x = 0;
-        let ans = null;
+        let y = 0;
+        let last = null;
         let block = -1;
         let operation = 0;
 
+        function equalat(oper)
+        {
+            switch (oper)
+            {
+                case 1:
+                    return Multiplication(x,y);
+                    break;
+                case 2:
+                    return Division(x,y);
+                    break;
+                case 3:
+
+                case 4:
+                    
+                case 5:
+                    
+                case 6:
+                    
+                case 7:
+
+                case 8:
+
+                case 9:
+
+                case 10:
+
+                case 11:
+            }
+        }
 
         function operationCheck(oper) 
         {
@@ -35,12 +64,25 @@
                     case 1:
                         x = parseInt(cal.display.value);
                         operation = 1;
+                        last = 1;
+                        break;
+                    case 2:
+                        x = parseInt(cal.display.value);
+                        operation = 2;
+                        last = 2;
+                        break;
                 }
             }
             else
             {
                 operation = operation;
-            }         
+            }       
+            if (oper == 10)
+            {
+                y = parseInt(cal.display.value);
+                cal.display.value = equalat(last);
+                block = -1;
+            }  
         }
 
         function appendNumber(number)
@@ -52,9 +94,9 @@
             else
             {
                 cal.display.value = '';
-                ans = x;
                 cal.display.value += number;
                 operation = 0;
+                block = 1;
             }
         }
 
@@ -79,13 +121,8 @@
     </div>
    
     <section id="section-3" style="height: 600px; display: flex;">
-<<<<<<< HEAD
         <div class="container1">
             <table class="center">
-=======
-        <div class="number-panel" style="width: 27%; height: 600px;">
-            <table>
->>>>>>> e423482eb5bdfd70841481c5358da4e44393a3ea
                 <tr class="number-panel-first">
                     <!-- operation code: 97 -->
                     <td><input value=" 7 " onClick="appendNumber('7'); " type="button" class="button-style"></td>
@@ -111,7 +148,7 @@
                     <td><input value=" 3 " onClick="appendNumber('3');" type="button" class="button-style"></td>
                 </tr>
                 <tr class="number-panel-fourth">
-                    <td><input value="+/-" onClick="" type="button"></td>
+                    <td><input value="+/-" onClick="" type="button" class="button-style"></td>
                     <!-- operation code: 90 -->
                     <td><input value=" 0 " onClick="appendNumber('0');" type="button" class="button-style"></td>
                     <!-- operation code: 100 -->
@@ -124,54 +161,46 @@
         <div class="grey-line"></div>
         </div>
 
-<<<<<<< HEAD
         <div class="container3">
             <table class="center">
-=======
-        <div class="operation-panel" style="width: 27%; height: 600px;">
-            <table>
->>>>>>> e423482eb5bdfd70841481c5358da4e44393a3ea
                 <tr class="operation-panel-first">
                     <!-- operation code: 1 -->
-                    <td><input type="button" value=" * " onClick="operationCheck(1); console.log(operation);" class="button-style"></td>
+                    <td><input type="button" value=" * " onClick="operationCheck(1);" class="button-style"></td>
                     <!-- operation code: 2 -->
-                    <td><input type="button" value=" / " onClick="operationCheck(2); console.log(operation);" class="button-style"></td>
+                    <td><input type="button" value=" / " onClick="operationCheck(2);" class="button-style"></td>
                     <!-- operation code: 3 -->
-                    <td><input type="button" value=" % " onClick="" class="button-style"></td>
+                    <td><input type="button" value=" % " onClick="operationCheck(3);" class="button-style"></td>
                 </tr>
                 <tr class="operation-panel-second">
                     <!-- operation code: 4 -->
-                    <td><input type="button" value=" + " onClick="" class="button-style"></td>
+                    <td><input type="button" value=" + " onClick="operationCheck(4);" class="button-style"></td>
                     <!-- operation code: 5 -->
-                    <td><input type="button" value="x^2" onClick="cal.display.value = square(parseInt(cal.display.value)).toString();"class="button-style"></td>
+                    <td><input type="button" value="x^2" onClick="cal.display.value = square(parseInt(cal.display.value)).toString();" class="button-style"></td>
                     <!-- operation code: 6 -->
-                    <td><input type="button" value=" C " onClick="" class="button-style"></td>
+                    <td><input type="button" value=" C " onClick="operationCheck(6);" class="button-style"></td>
                 </tr>
                 <tr class="operation-panel-third">
                     <!-- operation code: 7 -->
-                    <td><input type="button" value=" - " onClick="" class="button-style"></td>
+                    <td><input type="button" value=" - " onClick="operationCheck(7);" class="button-style"></td>
                     <!-- operation code: 8 -->
-                    <td><input type="button" value=" √ " onClick="cal.display.value = sqrt(parseInt(cal.display.value)).toString();"class="button-style"></td>
+                    <td><input type="button" value=" √ " onClick="cal.display.value = sqrt(parseInt(cal.display.value)).toString();" class="button-style"></td>
                     <!-- operation code: 9 -->
-                    <td><input type="button" value=" CE" onClick=""class="button-style"></td>
+                    <td><input type="button" value=" CE" onClick="operationCheck(9);" class="button-style"></td>
                 </tr>
                 <tr class="operation-panel-fourth">
                     <!-- operation code: 10 -->
-                    <td><input type="button" value=" = " onClick="" class="button-style"></td>
+                    <td><input type="button" value=" = " onClick="operationCheck(10);" class="button-style"></td>
                     <!-- operation code: 11 -->
-                    <td><input type="button" value="<x|" onClick="" class="button-style"></td>
+                    <td><input type="button" value="<x|" onClick="operationCheck(11);" class="button-style"></td>
                 </tr>
             </table>
         </div>
 
         <div class="panda-logo">
-        <a href="javascript:playSound('panda');"><img src="panda.png" alt="panda" class="panda-image"/></a> 
+        <a href="javascript:playSound('panda');">
+            <img src="panda.png" alt="panda" class="panda-image" /></a> 
             <audio id="panda"  src="./song.mp3" preload="auto"></audio>
         </div>
-       
-
     </section>
-    
 </body>
-
 </html>
