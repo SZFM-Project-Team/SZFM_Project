@@ -23,19 +23,6 @@
   font-family: 'Finger Paint', cursive;
 }
 
-input[name="display"] {
-  background-color: rgb(230, 222, 222);
-  width: 100%;
-  height: 100px;
-  margin-top: 2em;
-  margin-bottom: 2em;
-  margin-right:1em;
-  margin-left: 0.5em;
-  box-shadow:  0px -2px 3px rgb(145, 144, 144);
-  border: 0;
-  font-size: 1em;
-}
-
 #display {
   background-color: rgb(230, 222, 222);
   width: 100%;
@@ -44,7 +31,6 @@ input[name="display"] {
   margin-bottom: 0.4em;
   margin-right:0em;
   margin-left: 0em;
-  box-shadow:  0px -2px 3px rgb(145, 144, 144);
   border: 0;
   font-size: 5em;
 } 
@@ -59,7 +45,6 @@ input[name="display"] {
   background-color: whiredte;
   text-align: center;
   position: relative;
-  background-color: aquamarine;
 }
 .grey-line{
   border-left: 6px solid rgb(230, 222, 222);;
@@ -73,7 +58,7 @@ input[name="display"] {
   float:left;
   width: 30%;
   height: 50%;
-  background-color: aqua;
+  background-color: rgb(255, 255, 255);
   position: relative; 
  
 }
@@ -82,7 +67,7 @@ input[name="display"] {
   float:left;
   width: 30%;
   height:50%;
-  background-color: brown;
+  background-color: rgb(255, 255, 255);
   position: relative;
 }
 
@@ -102,13 +87,23 @@ table.center {
   font-size: 1.8em;
   border-radius: 0;
   border: 0;
+  width: 2em;
+  height: 1.9em;
+  text-align: center;
 }
 
+#equal{
+  background-color: rgb(92, 173, 255);
+}
+.shadow {
+  -moz-box-shadow:    inset 0 0 10px rgb(145, 144, 144);
+  -webkit-box-shadow: inset 0 0 10px rgb(145, 144, 144);
+  box-shadow:         inset 0 0 10px  rgb(145, 144, 144);
+}
 .panda-logo {
-
   width: 30%;
   height: 50%;
-  background-color: green;
+  background-color: rgb(255, 255, 255);
   cursor: pointer;
   float: left;
   justify-content: center;
@@ -117,8 +112,6 @@ table.center {
   width: 100%;
   height: 100%;
   object-fit:fill;
-
-
 }
 
  /* */
