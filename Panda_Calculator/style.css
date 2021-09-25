@@ -1,61 +1,89 @@
 *{
-    margin: 0
-  }
- 
-  .container {
-    position: relative;
-    background-color: rgb(164, 156, 156);
-  }
-  .blue-line{
-    margin-top:0.4em;
-    margin-right: 0.5em;
-    margin-left: 0.4em;
-  }
-  .text-block {
-    position: absolute;
-    top: 1em;
-    left: 1em;
-    color: white;
-    background-color: none;
-    padding-left: 0;
-    font-family: 'Finger Paint', cursive;
-  }
- 
-  input[name="display"] {
-    background-color: rgb(230, 222, 222);
-    width: 100%;
-    height: 100px;
-    margin-top: 2em;
-    margin-bottom: 2em;
-    margin-right:1em;
-    margin-left: 0.5em;
-    box-shadow:  0px -2px 3px rgb(145, 144, 144);
-    border: 0;
-    font-size: 1em;
-  } 
+  margin: 0
+}
 
-  #grey-line {
-    border-left: 6px solid rgb(230, 222, 222);
-    height: 600px;
-  }
-  .divider {
-    position: relative 
-  }
+.container {
+  width: 100%;
+  position: relative;
+  background-color: rgb(164, 156, 156);
+}
+.blue-line{
+  margin-top:0.4em;
+  width: 98%;
+  margin-left: 0.7em;
+}
 
-  .divider div {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-    border-radius: 1em;
-  }
+.text-block {
+  position: absolute;
+  top: 1em;
+  left: 1.4em;
+  color: white;
+  background-color: none;
+  padding-left: 0;
+  font-family: 'Finger Paint', cursive;
+}
 
-  .panda-logo {
-    max-width: 100%;
-    height: auto;
-    text-align: center;
-    cursor: pointer;
-  }
-  
+#display {
+  background-color: rgb(230, 222, 222);
+  width: 100%;
+  height: 100px;
+  margin-top: 0.4em;
+  margin-bottom: 0.4em;
+  margin-right:0em;
+  margin-left: 0em;
+  box-shadow:  0px -2px 3px rgb(145, 144, 144);
+  border: 0;
+  font-size: 5em;
+} 
+.input-line {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.container2 {
+  width: 10%;
+  height: 30%;
+  background-color: white;
+  text-align: center;
+  position: relative;
+}
+.grey-line{
+  border-left: 6px solid rgb(230, 222, 222);;
+  height: 100%;
+  position: absolute;
+  left: 50%;
+  border-radius: 1em;
+}
+
+.container1{
+  float:left;
+  width: 30%;
+  height: 30%;
+  background-color: black;
+}
+
+.container3{
+  float:left;
+  width: 30%;
+  height: 30%;
+  background-color: brown;
+}
+
+.panda-logo {
+
+  width: 30%;
+  height: 30%;
+  background-color: green;
+  cursor: pointer;
+  float: left;
+  justify-content: center;
+}
+.panda-image {
+  width: 100%;
+  height: 100%;
+  object-fit:fill;
+
+
+}
+
+ /* */
