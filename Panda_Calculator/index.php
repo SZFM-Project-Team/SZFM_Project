@@ -21,7 +21,7 @@
 
     <script>
         let x = 0;
-        let ans = 0;
+        let ans = null;
         let operation = 0;
 
 
@@ -32,7 +32,6 @@
                 case 1:
                     x = parseInt(cal.display.value);
                     operation = 1;
-
             }         
         }
 
@@ -50,6 +49,7 @@
                 cal.display.value += number;
             }
         }
+
 
         function playSound(animal) 
         {
@@ -71,7 +71,7 @@
     </div>
    
     <section id="section-3" style="height: 600px; display: flex;">
-        <div class="number-panel" style="width: 27%; height: 600px; background-color: blue;">
+        <div class="number-panel" style="width: 27%; height: 600px;">
             <table>
                 <tr class="number-panel-first">
                     <!-- operation code: 97 -->
@@ -111,7 +111,7 @@
         <div id="grey-line"></div>
         </div>
 
-        <div class="operation-panel" style="width: 27%; height: 600px; background-color: purple;">
+        <div class="operation-panel" style="width: 27%; height: 600px;">
             <table>
                 <tr class="operation-panel-first">
                     <!-- operation code: 1 -->
