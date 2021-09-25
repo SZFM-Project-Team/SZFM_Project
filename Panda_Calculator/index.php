@@ -22,16 +22,24 @@
     <script>
         let x = 0;
         let ans = null;
+        let block = -1;
         let operation = 0;
 
 
         function operationCheck(oper) 
         {
-            switch (oper)
+            if (block == -1)
             {
-                case 1:
-                    x = parseInt(cal.display.value);
-                    operation = 1;
+                switch (oper)
+                {
+                    case 1:
+                        x = parseInt(cal.display.value);
+                        operation = 1;
+                }
+            }
+            else
+            {
+                operation = operation;
             }         
         }
 
@@ -44,9 +52,9 @@
             else
             {
                 cal.display.value = '';
-                operation = 0;
                 ans = x;
                 cal.display.value += number;
+                operation = 0;
             }
         }
 
@@ -75,17 +83,17 @@
             <table>
                 <tr class="number-panel-first">
                     <!-- operation code: 97 -->
-                    <td><input value=" 7 " onClick="appendNumber('7'); " type="button"class="button-style"></td>
+                    <td><input value=" 7 " onClick="appendNumber('7'); " type="button" class="button-style"></td>
                     <!-- operation code: 98 -->
-                    <td><input value=" 8 " onClick="appendNumber('8');" type="button"class="button-style"></td>
+                    <td><input value=" 8 " onClick="appendNumber('8');" type="button" class="button-style"></td>
                     <!-- operation code: 99 -->
-                    <td><input value=" 9 " onClick="appendNumber('9');" type="button"class="button-style"></td>
+                    <td><input value=" 9 " onClick="appendNumber('9');" type="button" class="button-style"></td>
                 </tr>
                 <tr class="number-panel-second">
                     <!-- operation code: 94 -->
-                    <td><input value=" 4 " onClick="appendNumber('4');" type="button"class="button-style"></td>
+                    <td><input value=" 4 " onClick="appendNumber('4');" type="button" class="button-style"></td>
                     <!-- operation code: 95 -->
-                    <td><input value=" 5 " onClick="appendNumber('5');" type="button"class="button-style"></td>
+                    <td><input value=" 5 " onClick="appendNumber('5');" type="button" class="button-style"></td>
                     <!-- operation code: 96 -->
                     <td><input value=" 6 " onClick="appendNumber('6');" type="button" class="button-style"></td>
                 </tr>

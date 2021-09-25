@@ -4,7 +4,7 @@ function Equalation(oper,x,y)
 	switch (oper)
     {
         case 1:
-
+            return Multiplication(x,y);
         case 2:
 
         case 3:
