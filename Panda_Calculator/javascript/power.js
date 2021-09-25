@@ -1,5 +1,5 @@
 //Ez a függvény egy szám hatványozását végzi el
-export function power(a,n)
+function power(a,n)
 {
     if(typeof(a) == "number" && typeof(n) == "number")
     {

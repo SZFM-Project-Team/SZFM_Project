@@ -1,5 +1,5 @@
 //Ez a függvény előjelváltást végez
-export function change_sign(a)
+function change_sign(a)
 {
     if(typeof(a) == "number")
     {
