@@ -79,8 +79,13 @@
     </div>
    
     <section id="section-3" style="height: 600px; display: flex;">
+<<<<<<< HEAD
+        <div class="container1">
+            <table class="center">
+=======
         <div class="number-panel" style="width: 27%; height: 600px;">
             <table>
+>>>>>>> e423482eb5bdfd70841481c5358da4e44393a3ea
                 <tr class="number-panel-first">
                     <!-- operation code: 97 -->
                     <td><input value=" 7 " onClick="appendNumber('7'); " type="button" class="button-style"></td>
@@ -119,8 +124,13 @@
         <div class="grey-line"></div>
         </div>
 
+<<<<<<< HEAD
+        <div class="container3">
+            <table class="center">
+=======
         <div class="operation-panel" style="width: 27%; height: 600px;">
             <table>
+>>>>>>> e423482eb5bdfd70841481c5358da4e44393a3ea
                 <tr class="operation-panel-first">
                     <!-- operation code: 1 -->
                     <td><input type="button" value=" * " onClick="operationCheck(1); console.log(operation);" class="button-style"></td>
