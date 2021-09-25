@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<link href='https://fonts.googleapis.com/css?family=Creepster' rel='stylesheet'>
+<link href="https://fonts.googleapis.com/css2?family=Finger+Paint&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <script type="text/javascript" src="./javascript/square.js"></script>
     <script type="text/javascript" src="./javascript/sqrt.js"></script>
@@ -9,7 +9,7 @@
     <script type="text/javascript" src="./javascript/Addition.js"></script>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="itthoni.css">
     <title>Panda Calculator</title>
 </head>
 
@@ -31,8 +31,21 @@
                     
         }
     </script>
+    <script>
+        function playSound(animal) 
+        {
+            document.getElementById(animal).play();
+        }
 
-    <h1>PANDA CALCULATOR</h1>
+    </script>
+
+    <div class="container">
+        <img src="kek_csik.png" class="blue-line" alt="kek_csik" style="width:100%;">
+        <div id="label" class="text-block">
+            <h1>PANDA CALCULATOR</h1>
+        </div>
+    </div>
+
 
     <div class="input-line">
         <form name="cal">
@@ -66,8 +79,8 @@
             </table>
         </div>
 
-        <div class="divider" style="width: 6%; height: 600px; background-color: red;">
-
+        <div class="divider" style="width: 6%; height: 600px; background-color: white;">
+        <div id="grey-line"></div>
         </div>
 
         <div class="operation-panel" style="width: 27%; height: 600px; background-color: purple;">
@@ -94,8 +107,9 @@
             </table>
         </div>
 
-        <div class="panda-logo" style="width: 40%; height: 600px; background-color: yellow;">
-            <img src="panda.png" />
+        <div class="panda-logo" style="width: 40%; height: 600px; background-color: white;">
+            <a href="javascript:playSound('panda');"><img src="panda.png" alt="panda" /></a> 
+            <audio id="panda"  src="./song.mp3" preload="auto"></audio>
         </div>
 
     </section>
