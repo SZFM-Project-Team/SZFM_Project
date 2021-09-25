@@ -74,48 +74,43 @@
 
     <div class="input-line">
         <form name="cal">
-            <input type="text" id="display">     
+            <input type="text" id="display" class="shadow">     
         </form>
     </div>
    
     <section id="section-3" style="height: 600px; display: flex;">
-<<<<<<< HEAD
         <div class="container1">
             <table class="center">
-=======
-        <div class="number-panel" style="width: 27%; height: 600px;">
-            <table>
->>>>>>> e423482eb5bdfd70841481c5358da4e44393a3ea
                 <tr class="number-panel-first">
                     <!-- operation code: 97 -->
-                    <td><input value=" 7 " onClick="appendNumber('7'); " type="button" class="button-style"></td>
+                    <td><input value=" 7 " onClick="appendNumber('7'); " type="button" class="button-style shadow"></td>
                     <!-- operation code: 98 -->
-                    <td><input value=" 8 " onClick="appendNumber('8');" type="button" class="button-style"></td>
+                    <td><input value=" 8 " onClick="appendNumber('8');" type="button" class="button-style shadow"></td>
                     <!-- operation code: 99 -->
-                    <td><input value=" 9 " onClick="appendNumber('9');" type="button" class="button-style"></td>
+                    <td><input value=" 9 " onClick="appendNumber('9');" type="button" class="button-style shadow"></td>
                 </tr>
                 <tr class="number-panel-second">
                     <!-- operation code: 94 -->
-                    <td><input value=" 4 " onClick="appendNumber('4');" type="button" class="button-style"></td>
+                    <td><input value=" 4 " onClick="appendNumber('4');" type="button" class="button-style shadow"></td>
                     <!-- operation code: 95 -->
-                    <td><input value=" 5 " onClick="appendNumber('5');" type="button" class="button-style"></td>
+                    <td><input value=" 5 " onClick="appendNumber('5');" type="button" class="button-style shadow"></td>
                     <!-- operation code: 96 -->
-                    <td><input value=" 6 " onClick="appendNumber('6');" type="button" class="button-style"></td>
+                    <td><input value=" 6 " onClick="appendNumber('6');" type="button" class="button-style shadow"></td>
                 </tr>
                 <tr class="number-panel-third">
                     <!-- operation code: 91 -->
-                    <td><input value=" 1 " onClick="appendNumber('1');" type="button" class="button-style"></td>
+                    <td><input value=" 1 " onClick="appendNumber('1');" type="button" class="button-style shadow"></td>
                     <!-- operation code: 92 -->
-                    <td><input value=" 2 " onClick="appendNumber('2');" type="button" class="button-style"></td>
+                    <td><input value=" 2 " onClick="appendNumber('2');" type="button" class="button-style shadow"></td>
                     <!-- operation code: 93 -->
-                    <td><input value=" 3 " onClick="appendNumber('3');" type="button" class="button-style"></td>
+                    <td><input value=" 3 " onClick="appendNumber('3');" type="button" class="button-style shadow"></td>
                 </tr>
                 <tr class="number-panel-fourth">
                     <td><input value="+/-" onClick="" type="button"></td>
                     <!-- operation code: 90 -->
-                    <td><input value=" 0 " onClick="appendNumber('0');" type="button" class="button-style"></td>
+                    <td><input value=" 0 " onClick="appendNumber('0');" type="button" class="button-style shadow"></td>
                     <!-- operation code: 100 -->
-                    <td><input value=" . " onClick="appendNumber('.');" type="button" class="button-style"></td>
+                    <td><input value=" . " onClick="appendNumber('.');" type="button" class="button-style shadow"></td>
                 </tr>
             </table>
         </div>
@@ -124,42 +119,37 @@
         <div class="grey-line"></div>
         </div>
 
-<<<<<<< HEAD
         <div class="container3">
             <table class="center">
-=======
-        <div class="operation-panel" style="width: 27%; height: 600px;">
-            <table>
->>>>>>> e423482eb5bdfd70841481c5358da4e44393a3ea
                 <tr class="operation-panel-first">
                     <!-- operation code: 1 -->
-                    <td><input type="button" value=" * " onClick="operationCheck(1); console.log(operation);" class="button-style"></td>
+                    <td><input type="button" value=" * " onClick="operationCheck(1); console.log(operation);" class="button-style shadow"></td>
                     <!-- operation code: 2 -->
-                    <td><input type="button" value=" / " onClick="operationCheck(2); console.log(operation);" class="button-style"></td>
+                    <td><input type="button" value=" / " onClick="operationCheck(2); console.log(operation);" class="button-style shadow"></td>
                     <!-- operation code: 3 -->
-                    <td><input type="button" value=" % " onClick="" class="button-style"></td>
+                    <td><input type="button" value=" % " onClick="" class="button-style shadow"></td>
                 </tr>
                 <tr class="operation-panel-second">
                     <!-- operation code: 4 -->
-                    <td><input type="button" value=" + " onClick="" class="button-style"></td>
+                    <td><input type="button" value=" + " onClick="" class="button-style shadow"></td>
                     <!-- operation code: 5 -->
-                    <td><input type="button" value="x^2" onClick="cal.display.value = square(parseInt(cal.display.value)).toString();"class="button-style"></td>
+                    <td><input type="button" value="x^2" onClick="cal.display.value = square(parseInt(cal.display.value)).toString();"class="button-style shadow"></td>
                     <!-- operation code: 6 -->
-                    <td><input type="button" value=" C " onClick="" class="button-style"></td>
+                    <td><input type="button" value=" C " onClick="" class="button-style shadow"></td>
                 </tr>
                 <tr class="operation-panel-third">
                     <!-- operation code: 7 -->
-                    <td><input type="button" value=" - " onClick="" class="button-style"></td>
+                    <td><input type="button" value=" - " onClick="" class="button-style shadow"></td>
                     <!-- operation code: 8 -->
-                    <td><input type="button" value=" √ " onClick="cal.display.value = sqrt(parseInt(cal.display.value)).toString();"class="button-style"></td>
+                    <td><input type="button" value=" √ " onClick="cal.display.value = sqrt(parseInt(cal.display.value)).toString();"class="button-style shadow"></td>
                     <!-- operation code: 9 -->
-                    <td><input type="button" value=" CE" onClick=""class="button-style"></td>
+                    <td><input type="button" value=" CE" onClick=""class="button-style shadow"></td>
                 </tr>
                 <tr class="operation-panel-fourth">
                     <!-- operation code: 10 -->
-                    <td><input type="button" value=" = " onClick="" class="button-style"></td>
+                    <td><input type="button" value=" = " onClick="" class="button-style shadow"></td>
                     <!-- operation code: 11 -->
-                    <td><input type="button" value="<x|" onClick="" class="button-style"></td>
+                    <td><input type="button" value="<x|" onClick="" class="button-style shadow"></td>
                 </tr>
             </table>
         </div>
