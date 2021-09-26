@@ -64,7 +64,8 @@
                     return Division(x,y);
                     break;
                 case 3:
-                    
+                    return power(x,y);
+                    break;
                 case 4:
                     return Addition(x,y);
                     break;
@@ -86,29 +87,29 @@
                 switch (oper)
                 {
                     case 1:
-                        x = parseInt(cal.display.value);
+                        x = parseFloat(cal.display.value);
                         operation = 1;
                         last = 1;
                         break;
                     case 2:
-                        x = parseInt(cal.display.value);
+                        x = parseFloat(cal.display.value);
                         operation = 2;
                         last = 2;
                         break;
                     case 3:
-                        x = parseInt(cal.display.value);
+                        x = parseFloat(cal.display.value);
                         operation = 3;
                         last = 3;
                         break;
                     case 4:
-                        x = parseInt(cal.display.value);
+                        x = parseFloat(cal.display.value);
                         operation = 4;
                         last = 4;
                         break;
                     case 6:
 
                     case 7:
-                        x = parseInt(cal.display.value);
+                        x = parseFloat(cal.display.value);
                         operation = 7;
                         last = 7;
                         break;
@@ -207,7 +208,7 @@
                     <td><input value=" 3 " onClick="appendNumber('3');" type="button" class="button-style shadow"></td>
                 </tr>
                 <tr class="number-panel-fourth">
-                    <td><input value="+/-" onClick="" type="button" class="button-style"></td>
+                    <td><input value="+/-" onClick="" type="button" class="button-style shadow"></td>
                     <!-- operation code: 90 -->
                     <td><input value=" 0 " onClick="appendNumber('0');" type="button" class="button-style shadow"></td>
                     <!-- operation code: 100 -->
@@ -224,11 +225,11 @@
             <table class="center">
                 <tr class="operation-panel-first">
                     <!-- operation code: 1 -->
-                    <td><input type="button" value=" * " onClick="operationCheck(1); console.log(operation);" class="button-style shadow"></td>
+                    <td><input type="button" value=" X " onClick="operationCheck(1); console.log(operation);" class="button-style shadow"></td>
                     <!-- operation code: 2 -->
                     <td><input type="button" value=" / " onClick="operationCheck(2); console.log(operation);" class="button-style shadow"></td>
                     <!-- operation code: 3 -->
-                    <td><input type="button" value=" % " onClick="operationCheck(3);" class="button-style shadow"></td>
+                    <td><input type="button" value="x^y" onClick="operationCheck(3);" class="button-style shadow"></td>
                 </tr>
                 <tr class="operation-panel-second">
                     <!-- operation code: 4 -->
@@ -244,16 +245,12 @@
                     <!-- operation code: 8 -->
                     <td><input type="button" value=" √ " onClick="cal.display.value = sqrt(parseFloat(cal.display.value)).toString();"class="button-style shadow"></td>
                     <!-- operation code: 9 -->
-                    <td><input type="button" value=" CE" onClick="operationCheck(9);" class="button-style shadow"></td>
+                    <td><input type="button" value="CE" onClick="operationCheck(9);" class="button-style shadow"></td>
                 </tr>
                 <tr class="operation-panel-fourth">
                     <!-- operation code: 10 -->
                     <td><input type="button" value=" = " onClick="operationCheck(10);" id="equal" class="button-style shadow"></td>
                     <!-- operation code: 11 -->
-<<<<<<< HEAD
-                    <td><input type="button" value="<x|" onClick="operationCheck(11);" class="button-style shadow"></td>
-=======
->>>>>>> 14476e419cd7ae60c6c08fffc111611838013d1a
                 </tr>
             </table>
         </div>
