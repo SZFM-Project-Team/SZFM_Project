@@ -250,10 +250,14 @@
                     <!-- operation code: 10 -->
                     <td><input type="button" value=" = " onClick="operationCheck(10);" id="equal" class="button-style shadow"></td>
                     <!-- operation code: 11 -->
+<<<<<<< HEAD
                     <td><input type="button" value="<x|" onClick="operationCheck(11);" class="button-style shadow"></td>
+=======
+>>>>>>> 14476e419cd7ae60c6c08fffc111611838013d1a
                 </tr>
             </table>
         </div>
+        <div class="delete-button-container"><input type="button" value="" onClick="" class="delete-button"></div>
 
         <div class="panda-logo">
         <a href="javascript:playSound('panda');">

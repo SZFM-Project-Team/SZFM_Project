@@ -1,126 +1,147 @@
-*{
-  margin: 0
-}
 
-.container {
-  width: 100%;
-  position: relative;
-  background-color: rgb(164, 156, 156);
-}
-.blue-line{
-  margin-top:0.4em;
-  width: 98%;
-  margin-left: 0.7em;
-}
 
-.text-block {
-  position: absolute;
-  top: 0.5em;
-  left: 1.4em;
-  color: white;
-  background-color: none;
-  padding-left: 0;
-  font-family: 'Finger Paint', cursive;
-}
-
-#display {
-  background-color: rgb(230, 222, 222);
-  width: 100%;
-  height: 100px;
-  margin-top: 0.4em;
-  margin-bottom: 0.4em;
-  margin-right:0em;
-  margin-left: 0em;
-  border: 0;
-  font-size: 5em;
-} 
-.input-line {
-  padding-left: 1em;
-  padding-right: 1em;
-}
-
-.container2 {
-  width: 10%;
-  height: 50%;
-  background-color: whiredte;
-  text-align: center;
-  position: relative;
-}
-.grey-line{
-  border-left: 6px solid rgb(230, 222, 222);;
-  height: 100%;
-  position: absolute;
-  left: 50%;
-  border-radius: 1em;
-}
-
-.container1{
-  float:left;
-  width: 30%;
-  height: 50%;
-  background-color: rgb(255, 255, 255);
-  position: relative; 
- 
-}
-
-.container3{
-  float:left;
-  width: 30%;
-  height:50%;
-  background-color: rgb(255, 255, 255);
-  position: relative;
-}
-
-table.center {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%) 
+@media only screen and (min-width:768px){
+  *{
+    margin: 0
+  }
   
+  .container {
+    width: 100%;
+    position: relative;
+    background-color: rgb(164, 156, 156);
+  }
+  .blue-line{
+    margin-top:0.4em;
+    width: 98%;
+    margin-left: 0.7em;
+  }
+
+  .text-block {
+    position: absolute;
+    top: 0.5em;
+    left: 1.4em;
+    color: white;
+    background-color: none;
+    padding-left: 0;
+    font-family: 'Finger Paint', cursive;
+  }
+ 
+  #display {
+    background-color: rgb(230, 222, 222);
+    width: 100%;
+    height: 100px;
+    margin-top: 0.4em;
+    margin-bottom: 0.4em;
+    margin-right:0em;
+    margin-left: 0em;
+    border: 0;
+    font-size: 5em;
+    font-family: "Perpetua Titling MT", serif;
+  } 
+  .input-line {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+
+  .container2 {
+    width: 10%;
+    height: 50%;
+    background-color: whiredte;
+    text-align: center;
+    position: relative;
+  }
+  .grey-line{
+    border-left: 6px solid rgb(230, 222, 222);;
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    border-radius: 1em;
+  }
+  
+  .container1{
+    float:left;
+    width: 30%;
+    height: 50%;
+    background-color: rgb(255, 255, 255);
+    position: relative; 
+   
+  }
+
+  .container3{
+    float:left;
+    width: 30%;
+    height:50%;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+  }
+
+  table.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+    
+  }
+
+  .button-style{
+    background-color: rgb(230, 222, 222);
+    box-shadow:  0px -2px 3px rgb(145, 144, 144);
+    font-size: 1.8em;
+    border-radius: 0;
+    border: 0;
+    width: 2em;
+    height: 1.9em;
+    text-align: center;
+    cursor:pointer;
+    font-family: "Perpetua Titling MT", serif;
+  }
+
+  #equal{
+    background-color: rgb(92, 173, 255);
+  }
+  .shadow {
+    -moz-box-shadow:    inset 0 0 10px rgb(145, 144, 144);
+    -webkit-box-shadow: inset 0 0 10px rgb(145, 144, 144);
+    box-shadow:         inset 0 0 10px  rgb(145, 144, 144);
+  }
+  
+  .delete-button{
+    background:url(torles.png) no-repeat;
+    background-size: 8em 5em;
+    float:right;
+    cursor:pointer;
+    height: 5em;
+    width:9em;
+    border: 0;
+    margin-top: 15em;
 }
 
-.button-style{
-  background-color: rgb(230, 222, 222);
-  box-shadow:  0px -2px 3px rgb(145, 144, 144);
-  font-size: 1.8em;
-  border-radius: 0;
-  border: 0;
-  width: 2em;
-  height: 1.9em;
-  text-align: center;
-}
-
-#equal{
-  background-color: rgb(92, 173, 255);
-}
-.shadow {
-  -moz-box-shadow:    inset 0 0 10px rgb(145, 144, 144);
-  -webkit-box-shadow: inset 0 0 10px rgb(145, 144, 144);
-  box-shadow:         inset 0 0 10px  rgb(145, 144, 144);
-}
-.panda-logo {
-  width: 30%;
-  height: 50%;
-  background-color: rgb(255, 255, 255);
-  cursor: pointer;
-  float: left;
-  justify-content: center;
-}
-.panda-image {
-  width: 100%;
+.delete-button-container{
   height: 100%;
-  object-fit:fill;
-}
-.reklamsav{
-  width: 100%;
-  height: 150pt;
-  text-align: center;
-  vertical-align: middle;
-  color: white;
-  background-color: grey;
-  border: solid 2px black;
 }
 
- /* */
+.delete-button:active{   
+    background:url(torles.png) no-repeat;
+    background-size: 8em 5em;
+    background-color: aqua;
+}
+
+  .panda-logo {
+    width: 30%;
+    height: 50%;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    float: left;
+    justify-content: center;
+  }
+  
+  .panda-image {
+    width: 100%;
+    height: 100%;
+    object-fit:fill;
+  }
+ 
+   /* */
+}
