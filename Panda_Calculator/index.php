@@ -41,7 +41,7 @@
       <h4>Négyzetgyök vonás</h4>
       Írj be egy számot, majd nyomd meg a " √ " gombot.
       <h4>Törlés</h4>
-      Ha csak egy számot szeretnél törölni nyomd meg a " C " gombot. Ha pedig mindent törölni szeretnél nyomd meg a " CE " gombot.
+      Ha csak egy számot szeretnél törölni nyomd meg a " &#x232b; " gombot. Ha pedig mindent törölni szeretnél nyomd meg a " CE vagy C " gombot.
     </div>
   </div>
   <div id="overlay"></div>
@@ -69,14 +69,9 @@
                 case 4:
                     return Addition(x,y);
                     break;
-                case 6:
-                    
                 case 7:
                     return Subtraction(x,y);
                     break;
-                case 9:
-
-                case 11:
             }
         }
 
@@ -107,17 +102,24 @@
                         last = 4;
                         break;
                     case 6:
-
+                        cal.display.value = '';
+                        x = 0;
+                        last = 0;
+                        operation = 0;
+                        y = 0;
+                        block = -1;
+                        break;
                     case 7:
                         x = parseFloat(cal.display.value);
                         operation = 7;
                         last = 7;
                         break;
                     case 9:
-
-                    case 11:
-
-
+                        cal.display.value = '';
+                        break;
+                    case 21:
+                        cal.display.value = change_sign(parseFloat(cal.display.value)).toString();
+                        break;
                 }
             }
             else
@@ -130,6 +132,15 @@
                 cal.display.value = equalat(last);
                 block = -1;
             }  
+        }
+
+        function setActiveOperation(id)
+        {
+            let el = document.getElementsByClassName("active");
+            el.classList.remove("active");
+
+            el = document.getElementById(id);
+            el.classList.add("active");
         }
 
         function appendNumber(number)
@@ -217,7 +228,8 @@
                     <td><input value=" 3 " onClick="appendNumber('3');" type="button" class="button-style shadow"></td>
                 </tr>
                 <tr class="number-panel-fourth">
-                    <td><input value="+/-" onClick="" type="button" class="button-style shadow"></td>
+                    <!-- operation code: 21 -->
+                    <td><input value="+/-" onClick="operationCheck(21);" type="button" class="button-style shadow"></td>
                     <!-- operation code: 90 -->
                     <td><input value=" 0 " onClick="appendNumber('0');" type="button" class="button-style shadow"></td>
                     <!-- operation code: 100 -->
@@ -235,15 +247,15 @@
             <div class="delete-button-container"><input type="button" value="" onClick="deleteLastCharacter()" class="delete-button">
                 <tr class="operation-panel-first">
                     <!-- operation code: 1 -->
-                    <td><input type="button" value=" X " onClick="operationCheck(1); console.log(operation);" class="button-style shadow"></td>
+                    <td><input type="button" value=" X " id="multiplication" onClick="setActiveOperation(multiplication); operationCheck(1);" class="button-style shadow active"></td>
                     <!-- operation code: 2 -->
-                    <td><input type="button" value=" / " onClick="operationCheck(2); console.log(operation);" class="button-style shadow"></td>
+                    <td><input type="button" value=" / " id="division" onClick="setActiveOperation(division); operationCheck(2);" class="button-style shadow"></td>
                     <!-- operation code: 3 -->
-                    <td><input type="button" value="x^y" onClick="operationCheck(3);" class="button-style shadow"></td>
+                    <td><input type="button" value="x^y" id="power" onClick="setActiveOperation(power); operationCheck(3);" class="button-style shadow"></td>
                 </tr>
                 <tr class="operation-panel-second">
                     <!-- operation code: 4 -->
-                    <td><input type="button" value=" + " onClick="operationCheck(4);" class="button-style shadow"></td>
+                    <td><input type="button" value=" + " id="addition" onClick="setActiveOperation(addition); operationCheck(4);" class="button-style shadow"></td>
                     <!-- operation code: 5 -->
                     <td><input type="button" value="x^2" onClick="cal.display.value = square(parseFloat(cal.display.value)).toString();"class="button-style shadow"></td>
                     <!-- operation code: 6 -->
@@ -251,7 +263,7 @@
                 </tr>
                 <tr class="operation-panel-third">
                     <!-- operation code: 7 -->
-                    <td><input type="button" value=" - " onClick="operationCheck(7);" class="button-style shadow"></td>
+                    <td><input type="button" value=" - " id="substraction" onClick="setActiveOperation(substraction); operationCheck(7);" class="button-style shadow"></td>
                     <!-- operation code: 8 -->
                     <td><input type="button" value=" √ " onClick="cal.display.value = sqrt(parseFloat(cal.display.value)).toString();"class="button-style shadow"></td>
                     <!-- operation code: 9 -->
