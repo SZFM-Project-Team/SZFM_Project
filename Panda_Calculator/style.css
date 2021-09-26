@@ -149,5 +149,12 @@ td{
 	height : 100%;
 }
 
+.reklam-image{
+	width : 40%;
+	height : 20%;
+	object-fit:fill;
+	border: 1px dotted black;
+}
+
  /* */
 
