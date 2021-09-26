@@ -193,7 +193,7 @@
             }       
             if (oper == 10)
             {
-                y = parseInt(cal.display.value);
+                y = parseFloat(cal.display.value);
                 cal.display.value = equalat(last);
                 block = -1;
             }  
