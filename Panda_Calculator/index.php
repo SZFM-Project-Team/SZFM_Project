@@ -218,10 +218,10 @@
                     <!-- operation code: 10 -->
                     <td><input type="button" value=" = " onClick="" id="equal" class="button-style shadow"></td>
                     <!-- operation code: 11 -->
-                    <td><input type="button" value="<x|" onClick="" class="button-style shadow"></td>
                 </tr>
             </table>
         </div>
+        <div class="delete-button-container"><input type="button" value="" onClick="" class="delete-button"></div>
 
         <div class="panda-logo">
         <a href="javascript:playSound('panda');">
