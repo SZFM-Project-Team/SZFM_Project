@@ -4,6 +4,13 @@ function Multiplication(x,y)
 	if(typeof(x) == "number"&&
 	   typeof(y) == "number")
 		{
+			//Ha bármelyik érték 0 lenne :
+			//Az eredmény mindenféle képpen 0;
+			//így kihagyhatjuk a számolás részét, időt spórolva.
+			if(x == 0 or y == 0)
+			{
+				return 0;
+			}
 			//szorzás
 			let result;
 			result = x * y;

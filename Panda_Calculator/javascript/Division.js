@@ -4,8 +4,13 @@ function Division(x,y)
     if(typeof(x) == "number"&&
 	   typeof(y) == "number")
        {
-           //Osztás
-           let result;
+		   //0-val való osztás helytelen
+		   if(y == 0)
+		   {
+			   alert("0 értékkel egy szám sem osztható!!!")
+		   }
+            //Osztás
+            let result;
 			result = x / y;
 			return result;
        }
