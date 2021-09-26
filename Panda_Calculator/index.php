@@ -11,6 +11,9 @@
     <script type="text/javascript" src="./javascript/negapos.js"></script>
     <script type="text/javascript" src="./javascript/Division.js"></script>
     <script type="text/javascript" src="./javascript/Subtraction.js"></script>
+    <link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.17/themes/base/jquery-ui.css" rel="stylesheet" type="text/css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.17/jquery-ui.min.js"></script>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
@@ -77,26 +80,76 @@
 
         function operationCheck(oper) 
         {
+            let element;
+            
             if (block == -1)
             {
                 switch (oper)
                 {
                     case 1:
+                        element = document.getElementsByClassName("active");
+                        if (element.length > 0)
+                        {
+                            $(".active").removeClass("active");
+                            element = document.getElementById("multiplication");
+                            element.classList.add("active");
+                        }
+                        else
+                        {
+                            element = document.getElementById("multiplication");
+                            element.classList.add("active");
+                        }
                         x = parseFloat(cal.display.value);
                         operation = 1;
                         last = 1;
                         break;
                     case 2:
+                        element = document.getElementsByClassName("active");
+                        if (element.length > 0)
+                        {
+                            $(".active").removeClass("active");
+                            element = document.getElementById("division");
+                            element.classList.add("active");
+                        }
+                        else
+                        {
+                            element = document.getElementById("division");
+                            element.classList.add("active");
+                        }
                         x = parseFloat(cal.display.value);
                         operation = 2;
                         last = 2;
                         break;
                     case 3:
+                        element = document.getElementsByClassName("active");
+                        if (element.length > 0)
+                        {
+                            $(".active").removeClass("active");
+                            element = document.getElementById("power");
+                            element.classList.add("active");
+                        }
+                        else
+                        {
+                            element = document.getElementById("power");
+                            element.classList.add("active");
+                        }
                         x = parseFloat(cal.display.value);
                         operation = 3;
                         last = 3;
                         break;
                     case 4:
+                        element = document.getElementsByClassName("active");
+                        if (element.length > 0)
+                        {
+                            $(".active").removeClass("active");
+                            element = document.getElementById("addition");
+                            element.classList.add("active");
+                        }
+                        else
+                        {
+                            element = document.getElementById("addition");
+                            element.classList.add("active");
+                        }
                         x = parseFloat(cal.display.value);
                         operation = 4;
                         last = 4;
@@ -110,6 +163,18 @@
                         block = -1;
                         break;
                     case 7:
+                        element = document.getElementsByClassName("active");
+                        if (element.length > 0)
+                        {
+                            $(".active").removeClass("active");
+                            element = document.getElementById("substraction");
+                            element.classList.add("active");
+                        }
+                        else
+                        {
+                            element = document.getElementById("substraction");
+                            element.classList.add("active");
+                        }
                         x = parseFloat(cal.display.value);
                         operation = 7;
                         last = 7;
@@ -247,15 +312,15 @@
             <div class="delete-button-container"><input type="button" value="" onClick="deleteLastCharacter()" class="delete-button">
                 <tr class="operation-panel-first">
                     <!-- operation code: 1 -->
-                    <td><input type="button" value=" X " id="multiplication" onClick="setActiveOperation(multiplication); operationCheck(1);" class="button-style shadow active"></td>
+                    <td><input type="button" id="multiplication" value=" X " onClick="operationCheck(1);" class="button-style shadow"></td>
                     <!-- operation code: 2 -->
-                    <td><input type="button" value=" / " id="division" onClick="setActiveOperation(division); operationCheck(2);" class="button-style shadow"></td>
+                    <td><input type="button" id="division" value=" / " onClick="operationCheck(2);" class="button-style shadow"></td>
                     <!-- operation code: 3 -->
-                    <td><input type="button" value="x^y" id="power" onClick="setActiveOperation(power); operationCheck(3);" class="button-style shadow"></td>
+                    <td><input type="button" id="power" value="x^y" onClick="operationCheck(3);" class="button-style shadow"></td>
                 </tr>
                 <tr class="operation-panel-second">
                     <!-- operation code: 4 -->
-                    <td><input type="button" value=" + " id="addition" onClick="setActiveOperation(addition); operationCheck(4);" class="button-style shadow"></td>
+                    <td><input type="button" id="addition" value=" + " onClick="operationCheck(4);" class="button-style shadow"></td>
                     <!-- operation code: 5 -->
                     <td><input type="button" value="x^2" onClick="cal.display.value = square(parseFloat(cal.display.value)).toString();"class="button-style shadow"></td>
                     <!-- operation code: 6 -->
@@ -263,7 +328,7 @@
                 </tr>
                 <tr class="operation-panel-third">
                     <!-- operation code: 7 -->
-                    <td><input type="button" value=" - " id="substraction" onClick="setActiveOperation(substraction); operationCheck(7);" class="button-style shadow"></td>
+                    <td><input type="button" id="substraction" value=" - " onClick="operationCheck(7);" class="button-style shadow"></td>
                     <!-- operation code: 8 -->
                     <td><input type="button" value=" √ " onClick="cal.display.value = sqrt(parseFloat(cal.display.value)).toString();"class="button-style shadow"></td>
                     <!-- operation code: 9 -->
