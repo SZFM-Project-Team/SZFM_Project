@@ -309,7 +309,6 @@
 
         <div class="container3">
             <table class="center">
-            <div class="delete-button-container"><input type="button" value="" onClick="deleteLastCharacter()" class="delete-button">
                 <tr class="operation-panel-first">
                     <!-- operation code: 1 -->
                     <td><input type="button" id="multiplication" value=" X " onClick="operationCheck(1);" class="button-style shadow"></td>
@@ -338,8 +337,8 @@
                     <!-- operation code: 10 -->
                     <td><input type="button" value=" = " onClick="operationCheck(10);" id="equal" class="button-style shadow"></td>
                     <!-- operation code: 11 -->
+                    <td><input type="button" value="" onClick="deleteLastCharacter()" class="delete-button"></td>
                 </tr>
-                </div>
             </table>
         </div>
         
@@ -350,7 +349,7 @@
             <audio id="panda"  src="./song.mp3" preload="auto"></audio>
         </div>
     </section>
-    <section id="section-4" style="height: 200px;">
+    <section id="section-4" style="height: 200px; text-align:center">
          <div class=reklamsav style="bottom: 50px; right: 0;">
 			<a><img src="addholder.png" alt="reklam" width = "500" height= "200"></a>
         </div>

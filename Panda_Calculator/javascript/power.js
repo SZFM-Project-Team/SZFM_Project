@@ -10,10 +10,24 @@ function power(a,n)
             return result
         }
         else
-        {
+        {   
             //Akkor teljesül ha a kitevő nem 0, azaz bármilyen egész szám
             let result;
             result = Math.pow(a,n);
+            if (result - Math.round(result) != 0){
+                if (result - Math.round(result) < 0){
+                    if (result - Math.round(result) < 0 && result - Math.round(result) > -0.001){ 
+                        result = Math.round(result);
+                        return result;
+                    }
+                }
+                else {
+                    if (result - Math.round(result) > 0 && result - Math.round(result) < 0.001){
+                        result = Math.round(result);
+                        return result;
+                    }
+                }
+            } 
             return result;
         }
     }
