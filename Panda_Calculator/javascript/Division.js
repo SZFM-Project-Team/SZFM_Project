@@ -8,6 +8,7 @@ function Division(x,y)
 		   if(y == 0)
 		   {
 			   alert("0 értékkel egy szám sem osztható!!!")
+			   return "Error!!"
 		   }
             //Osztás
             let result;

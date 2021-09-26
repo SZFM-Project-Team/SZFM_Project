@@ -421,7 +421,7 @@
     </section>
     <section id="section-4" style="height: 200px; text-align:center">
          <div class=reklamsav style="bottom: 50px; right: 0;">
-			<a><img src="addholder.png" alt="reklam" width = "500" height= "200"></a>
+			<a><img src="addholder.png" alt="reklam" class="reklam-image" width = "500" height= "200" /></a>
         </div>
     </section>
 </body>
