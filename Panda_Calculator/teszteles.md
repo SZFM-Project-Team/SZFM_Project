@@ -11,5 +11,14 @@
 | 2021.09.26 23:25 | Tari Levente | Osztás | Sikeres | 10 / 2 | 5 | 5 |
 | 2021.09.26 23:26 | Tari Levente | Hatványozás | Sikeres | 5 ^ 3 | 125 | 125 |
 | 2021.09.26 23:27 | Tari Levente | Törlés gombok | Sikeres | - | - | - |
+| 2021.09.26 23:45 | Fiedler Norbert | Művelet gombok | Sikeres | - | - | - |
+| 2021.09.26 23:46 | Fiedler Norbert | Szám panel működése | Sikeres | - | - | - |
+| 2021.09.26 23:46 | Fiedler Norbert | Aktív státusz adása JQuery | Sikeres | - | - | - |
+| 2021.09.26 23:47 | Fiedler Norbert | Beírósáv kezelése | Sikeres | - | - | - |
+| 2021.09.26 23:47 | Fiedler Norbert | . használata helyesen | Sikeres | - | - | - |
+| 2021.09.26 23:50 | Fiedler Norbert | Művelet blokkoló használata | Sikeres | - | - | - |
+| 2021.09.26 23:51 | Fiedler Norbert | Az adott gomb az adott műveletet hívta meg | - | - | - |
+| 2021.09.26 23:51 | Fiedler Norbert | Pozitív, negatív gomb | - | - | - |
+
 
 
