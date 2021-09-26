@@ -159,6 +159,15 @@
             }
         }
 
+        function deleteLastCharacter(){
+            
+            if(cal.display.value=="NaN" || cal.display.value == "undefined"){
+                cal.display.value = "";
+            }
+            else{
+                cal.display.value = (cal.display.value).slice(0, -1);
+            }
+        }
 
         function playSound(animal) 
         {
@@ -207,7 +216,7 @@
                     <td><input value=" 3 " onClick="appendNumber('3');" type="button" class="button-style shadow"></td>
                 </tr>
                 <tr class="number-panel-fourth">
-                    <td><input value="+/-" onClick="" type="button" class="button-style"></td>
+                    <td><input value="+/-" onClick="" type="button" class="button-style shadow"></td>
                     <!-- operation code: 90 -->
                     <td><input value=" 0 " onClick="appendNumber('0');" type="button" class="button-style shadow"></td>
                     <!-- operation code: 100 -->
@@ -222,13 +231,14 @@
 
         <div class="container3">
             <table class="center">
+            <div class="delete-button-container"><input type="button" value="" onClick="deleteLastCharacter()" class="delete-button">
                 <tr class="operation-panel-first">
                     <!-- operation code: 1 -->
                     <td><input type="button" value=" * " onClick="operationCheck(1); console.log(operation);" class="button-style shadow"></td>
                     <!-- operation code: 2 -->
                     <td><input type="button" value=" / " onClick="operationCheck(2); console.log(operation);" class="button-style shadow"></td>
                     <!-- operation code: 3 -->
-                    <td><input type="button" value=" % " onClick="operationCheck(3);" class="button-style shadow"></td>
+                    <td><input type="button" value="x^y" onClick="operationCheck(3);" class="button-style shadow"></td>
                 </tr>
                 <tr class="operation-panel-second">
                     <!-- operation code: 4 -->
@@ -244,20 +254,17 @@
                     <!-- operation code: 8 -->
                     <td><input type="button" value=" √ " onClick="cal.display.value = sqrt(parseFloat(cal.display.value)).toString();"class="button-style shadow"></td>
                     <!-- operation code: 9 -->
-                    <td><input type="button" value=" CE" onClick="operationCheck(9);" class="button-style shadow"></td>
+                    <td><input type="button" value="CE" onClick="operationCheck(9);" class="button-style shadow"></td>
                 </tr>
                 <tr class="operation-panel-fourth">
                     <!-- operation code: 10 -->
                     <td><input type="button" value=" = " onClick="operationCheck(10);" id="equal" class="button-style shadow"></td>
                     <!-- operation code: 11 -->
-<<<<<<< HEAD
-                    <td><input type="button" value="<x|" onClick="operationCheck(11);" class="button-style shadow"></td>
-=======
->>>>>>> 14476e419cd7ae60c6c08fffc111611838013d1a
                 </tr>
+                </div>
             </table>
         </div>
-        <div class="delete-button-container"><input type="button" value="" onClick="" class="delete-button"></div>
+        
 
         <div class="panda-logo">
         <a href="javascript:playSound('panda');">
