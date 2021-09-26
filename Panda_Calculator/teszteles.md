@@ -19,6 +19,16 @@
 | 2021.09.26 23:50 | Fiedler Norbert | Művelet blokkoló használata | Sikeres | - | - | - |
 | 2021.09.26 23:51 | Fiedler Norbert | Az adott gomb az adott műveletet hívta meg | - | - | - |
 | 2021.09.26 23:51 | Fiedler Norbert | Pozitív, negatív gomb | - | - | - |
+| 2021.09.27 1:56 | Szakács Ágnes | Egész számhoz nála nagyobb egész szám hozzáadása | Sikeres | 4 + 53 | 57 | 57|
+| 2021.09.27 1:56 | Szakács Ágnes | Egész számhoz nála kisebb egész szám hozzáadása | Sikeres | 70 + 33 | 125 | 125|
+| 2021.09.27 1:56 | Szakács Ágnes | Egész szám kivonása nála kisebb egész számból | Sikeres | 121 - 200 | -79 | -79 |
+| 2021.09.27 1:57 | Szakács Ágnes | Egész szám kivonása nála nagyobb egész számból | Sikeres | 121 - 33 | 88 | 88|
+| 2021.09.27 1:57 | Szakács Ágnes | Egész szám szorzása nála nagyobb egész számmal | Sikeres | 3*76 | 228 | 228 |
+| 2021.09.27 1:57 | Szakács Ágnes | Egész szám szorzása nála kisebb egész számmal | Sikeres | 18*6 | 108 | 108 |
+| 2021.09.27 1:58 | Szakács Ágnes | Egész szám osztása nála kisebb egész számmal | Sikeres | 44/4 | 11 | 11 |
+| 2021.09.27 1:58 | Szakács Ágnes | Egész szám osztása nála nagyobb egész számmal | Sikeres | 70/90 | 0.7777777777777778 | 0.7777777777777778 |
+| 2021.09.27 1:58 | Szakács Ágnes | Egész szám hozzáadása nála nagyobb floathoz | Sikeres | 21+34.6 | 55.6 | 55.6 |
+| 2021.09.27 1:58 | Szakács Ágnes | Egész szám hozzáadása nála kisebb floathoz | Sikeres | 21+7.8 | 28.8 | 28.8 |
 
 
 
