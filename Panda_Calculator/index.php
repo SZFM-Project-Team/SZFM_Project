@@ -59,32 +59,24 @@
         function equalat(oper)
         {
             let decider = 0;
-            let l;
+            let l = 0;
             let p;
-            let ll;
+            let ll = 0;
             let pp;
 
             if (x.toString().includes('.'))
             {
                 p = x.toString().indexOf('.');
                 l = parseInt(x.toString().length) - parseInt(p+1);
+                decider = l;
             }
             if (y.toString().includes('.'))
             {
                 pp = y.toString().indexOf('.');
                 ll = parseInt(y.toString().length) - parseInt(pp+1);
+                if (ll > decider) decider = ll;
             }
-
-            if (x >= y)
-            {
-                decider = l;
-            }
-            else if (y >= x)
-            {
-                decider = ll;
-            }
-            console.log(decider);
-
+            
             switch (oper)
             {
                 case 1:
