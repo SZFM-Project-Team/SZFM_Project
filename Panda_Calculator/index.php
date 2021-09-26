@@ -64,7 +64,8 @@
                     return Division(x,y);
                     break;
                 case 3:
-                    
+                    return power(x,y);
+                    break;
                 case 4:
                     return Addition(x,y);
                     break;
@@ -86,29 +87,29 @@
                 switch (oper)
                 {
                     case 1:
-                        x = parseInt(cal.display.value);
+                        x = parseFloat(cal.display.value);
                         operation = 1;
                         last = 1;
                         break;
                     case 2:
-                        x = parseInt(cal.display.value);
+                        x = parseFloat(cal.display.value);
                         operation = 2;
                         last = 2;
                         break;
                     case 3:
-                        x = parseInt(cal.display.value);
+                        x = parseFloat(cal.display.value);
                         operation = 3;
                         last = 3;
                         break;
                     case 4:
-                        x = parseInt(cal.display.value);
+                        x = parseFloat(cal.display.value);
                         operation = 4;
                         last = 4;
                         break;
                     case 6:
 
                     case 7:
-                        x = parseInt(cal.display.value);
+                        x = parseFloat(cal.display.value);
                         operation = 7;
                         last = 7;
                         break;
@@ -234,7 +235,7 @@
             <div class="delete-button-container"><input type="button" value="" onClick="deleteLastCharacter()" class="delete-button">
                 <tr class="operation-panel-first">
                     <!-- operation code: 1 -->
-                    <td><input type="button" value=" * " onClick="operationCheck(1); console.log(operation);" class="button-style shadow"></td>
+                    <td><input type="button" value=" X " onClick="operationCheck(1); console.log(operation);" class="button-style shadow"></td>
                     <!-- operation code: 2 -->
                     <td><input type="button" value=" / " onClick="operationCheck(2); console.log(operation);" class="button-style shadow"></td>
                     <!-- operation code: 3 -->
