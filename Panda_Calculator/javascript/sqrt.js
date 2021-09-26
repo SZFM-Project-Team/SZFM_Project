@@ -1,7 +1,7 @@
 //Ez a függvény a négyzetgyökvonást végzi el
 function sqrt(a)
 {
-    if(typeof(a) == "number" )
+    if(typeof(a) == "number" && a >= 0)
     {
         //Négyzetgyökvonás
         let result;
