@@ -14,9 +14,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link href="tutorial.css" rel="stylesheet">
+    <script defer src="./javascript/tutorial.js"></script>
     <title>Panda Calculator</title>
 </head>
 <body>
+    
+<button id=modbutton data-modal-target="#modal">Tutorial</button>
+  <div class="modal" id="modal">
+    <div class="modal-header">
+      <div class="title">Tutorial</div>
+      <button data-close-button class="close-button">&times;</button>
+    </div>
+    <div class="modal-body">
+      <h4>Összeadás</h4>
+      Írj be egy számot a baloldali gombok segítségével, majd nyomd meg a " + " gombot, ezután írj be egy másik számot és nyomd meg az " = " gombot.
+      <h4>Kivonás</h4>
+      Írd be azt a számot amiből kiszeretnél vonni, majd a nyomd meg a " - " gombot, ezután írd be azt a számot amit kiszeretnél vonni és nyomd meg az " = " gombot.
+      <h4>Szorzás</h4>
+      Írj be egy számot, majd nyomd meg a " * " gombot, ezután írj be egy másik számot és nyomd meg az " = " gombot.  
+      <h4>Osztás</h4>
+      Írd be azt a számot amit elszeretnél osztani, majd nyomd meg a " / " gombot, ezután írd be azt a számot amivel osztani szeretnél és nyomd meg az " = " gombot.
+      <h4>Négyzetre emelés</h4>
+      Írj be egy számot, majd nyomd meg a " x^2 " gombot.
+      <h4>Négyzetgyök vonás</h4>
+      Írj be egy számot, majd nyomd meg a " √ " gombot.
+      <h4>Törlés</h4>
+      Ha csak egy számot szeretnél törölni nyomd meg a " C " gombot. Ha pedig mindent törölni szeretnél nyomd meg a " CE " gombot.
+    </div>
+  </div>
+  <div id="overlay"></div>
 
     <script>
         let x = 0;
