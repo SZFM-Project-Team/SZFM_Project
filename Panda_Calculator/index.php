@@ -399,7 +399,7 @@
                     <!-- operation code: 10 -->
                     <td><input type="button" value=" = " onClick="operationCheck(10);" id="equal" class="button-style shadow"></td>
                     <!-- operation code: 11 -->
-                    <td><input type="button" value="" onClick="deleteLastCharacter()" class="delete-button"></td>
+                    <td class ="delete-button-td"><input type="button" value="" onClick="deleteLastCharacter()" class="delete-button"></td>
                 </tr>
             </table>
         </div>
