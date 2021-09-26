@@ -230,8 +230,8 @@
         </div>
     </section>
     <section id="section-4" style="height: 200px;">
-        <div class=reklamsav style="width: 20%; height: 25px; position: absolute; bottom: -50px" >
-			<a><img src="addholder.png" alt="addh" width = "500" height= "150"></a>
+         <div class=reklamsav style=" position: absolute; bottom: -50px; right: 0;" >
+			<a><img src="addholder.png" alt="reklam" width = "500" height= "200"></a>
         </div>
     </section>
 </body>
