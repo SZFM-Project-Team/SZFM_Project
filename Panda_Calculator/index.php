@@ -17,6 +17,7 @@
     <link href="tutorial.css" rel="stylesheet">
     <script defer src="./javascript/tutorial.js"></script>
     <title>Panda Calculator</title>
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
 </head>
 <body>
     
@@ -63,20 +64,16 @@
                     return Division(x,y);
                     break;
                 case 3:
-
+                    
                 case 4:
-                    
-                case 5:
-                    
+                    return Addition(x,y);
+                    break;
                 case 6:
                     
                 case 7:
-
-                case 8:
-
+                    return Subtraction(x,y);
+                    break;
                 case 9:
-
-                case 10:
 
                 case 11:
             }
@@ -98,6 +95,28 @@
                         operation = 2;
                         last = 2;
                         break;
+                    case 3:
+                        x = parseInt(cal.display.value);
+                        operation = 3;
+                        last = 3;
+                        break;
+                    case 4:
+                        x = parseInt(cal.display.value);
+                        operation = 4;
+                        last = 4;
+                        break;
+                    case 6:
+
+                    case 7:
+                        x = parseInt(cal.display.value);
+                        operation = 7;
+                        last = 7;
+                        break;
+                    case 9:
+
+                    case 11:
+
+
                 }
             }
             else
@@ -124,6 +143,19 @@
                 cal.display.value += number;
                 operation = 0;
                 block = 1;
+            }
+        }
+
+        function pointAppend()
+        {
+            if (cal.display.value == "")
+            {
+                appendNumber("0.");
+            }
+
+            if (!(cal.display.value).includes('.')) 
+            {
+                appendNumber('.');
             }
         }
 
@@ -179,7 +211,7 @@
                     <!-- operation code: 90 -->
                     <td><input value=" 0 " onClick="appendNumber('0');" type="button" class="button-style shadow"></td>
                     <!-- operation code: 100 -->
-                    <td><input value=" . " onClick="appendNumber('.');" type="button" class="button-style shadow"></td>
+                    <td><input value=" . " onClick="pointAppend();" type="button" class="button-style shadow"></td>
                 </tr>
             </table>
         </div>
@@ -196,29 +228,29 @@
                     <!-- operation code: 2 -->
                     <td><input type="button" value=" / " onClick="operationCheck(2); console.log(operation);" class="button-style shadow"></td>
                     <!-- operation code: 3 -->
-                    <td><input type="button" value=" % " onClick="" class="button-style shadow"></td>
+                    <td><input type="button" value=" % " onClick="operationCheck(3);" class="button-style shadow"></td>
                 </tr>
                 <tr class="operation-panel-second">
                     <!-- operation code: 4 -->
-                    <td><input type="button" value=" + " onClick="" class="button-style shadow"></td>
+                    <td><input type="button" value=" + " onClick="operationCheck(4);" class="button-style shadow"></td>
                     <!-- operation code: 5 -->
-                    <td><input type="button" value="x^2" onClick="cal.display.value = square(parseInt(cal.display.value)).toString();"class="button-style shadow"></td>
+                    <td><input type="button" value="x^2" onClick="cal.display.value = square(parseFloat(cal.display.value)).toString();"class="button-style shadow"></td>
                     <!-- operation code: 6 -->
-                    <td><input type="button" value=" C " onClick="" class="button-style shadow"></td>
+                    <td><input type="button" value=" C " onClick="operationCheck(6);" class="button-style shadow"></td>
                 </tr>
                 <tr class="operation-panel-third">
                     <!-- operation code: 7 -->
-                    <td><input type="button" value=" - " onClick="" class="button-style shadow"></td>
+                    <td><input type="button" value=" - " onClick="operationCheck(7);" class="button-style shadow"></td>
                     <!-- operation code: 8 -->
-                    <td><input type="button" value=" √ " onClick="cal.display.value = sqrt(parseInt(cal.display.value)).toString();"class="button-style shadow"></td>
+                    <td><input type="button" value=" √ " onClick="cal.display.value = sqrt(parseFloat(cal.display.value)).toString();"class="button-style shadow"></td>
                     <!-- operation code: 9 -->
-                    <td><input type="button" value=" CE" onClick=""class="button-style shadow"></td>
+                    <td><input type="button" value=" CE" onClick="operationCheck(9);" class="button-style shadow"></td>
                 </tr>
                 <tr class="operation-panel-fourth">
                     <!-- operation code: 10 -->
-                    <td><input type="button" value=" = " onClick="" id="equal" class="button-style shadow"></td>
+                    <td><input type="button" value=" = " onClick="operationCheck(10);" id="equal" class="button-style shadow"></td>
                     <!-- operation code: 11 -->
-                    <td><input type="button" value="<x|" onClick="" class="button-style shadow"></td>
+                    <td><input type="button" value="<x|" onClick="operationCheck(11);" class="button-style shadow"></td>
                 </tr>
             </table>
         </div>
@@ -230,7 +262,7 @@
         </div>
     </section>
     <section id="section-4" style="height: 200px;">
-         <div class=reklamsav style=" position: absolute; bottom: -50px; right: 0;" >
+         <div class=reklamsav style="bottom: 50px; right: 0;">
 			<a><img src="addholder.png" alt="reklam" width = "500" height= "200"></a>
         </div>
     </section>
