@@ -58,6 +58,33 @@
 
         function equalat(oper)
         {
+            let decider = 0;
+            let l;
+            let p;
+            let ll;
+            let pp;
+
+            if (x.toString().includes('.'))
+            {
+                p = x.toString().indexOf('.');
+                l = parseInt(x.toString().length) - parseInt(p+1);
+            }
+            if (y.toString().includes('.'))
+            {
+                pp = y.toString().indexOf('.');
+                ll = parseInt(y.toString().length) - parseInt(pp+1);
+            }
+
+            if (x >= y)
+            {
+                decider = l;
+            }
+            else if (y >= x)
+            {
+                decider = ll;
+            }
+            console.log(decider);
+
             switch (oper)
             {
                 case 1:
@@ -73,7 +100,7 @@
                     return Addition(x,y);
                     break;
                 case 7:
-                    return Subtraction(x,y);
+                    return Subtraction(x,y).toFixed(decider);
                     break;
             }
         }
@@ -99,7 +126,14 @@
                             element = document.getElementById("multiplication");
                             element.classList.add("active");
                         }
-                        x = parseFloat(cal.display.value);
+                        if ((cal.display.value).includes('.'))
+                        {
+                            x = parseFloat(cal.display.value);
+                        }
+                        else
+                        {
+                            x = parseInt(cal.display.value);
+                        }
                         operation = 1;
                         last = 1;
                         break;
@@ -116,7 +150,14 @@
                             element = document.getElementById("division");
                             element.classList.add("active");
                         }
-                        x = parseFloat(cal.display.value);
+                        if ((cal.display.value).includes('.'))
+                        {
+                            x = parseFloat(cal.display.value);
+                        }
+                        else
+                        {
+                            x = parseInt(cal.display.value);
+                        }
                         operation = 2;
                         last = 2;
                         break;
@@ -133,7 +174,14 @@
                             element = document.getElementById("power");
                             element.classList.add("active");
                         }
-                        x = parseFloat(cal.display.value);
+                        if ((cal.display.value).includes('.'))
+                        {
+                            x = parseFloat(cal.display.value);
+                        }
+                        else
+                        {
+                            x = parseInt(cal.display.value);
+                        }
                         operation = 3;
                         last = 3;
                         break;
@@ -150,7 +198,14 @@
                             element = document.getElementById("addition");
                             element.classList.add("active");
                         }
-                        x = parseFloat(cal.display.value);
+                        if ((cal.display.value).includes('.'))
+                        {
+                            x = parseFloat(cal.display.value);
+                        }
+                        else
+                        {
+                            x = parseInt(cal.display.value);
+                        }
                         operation = 4;
                         last = 4;
                         break;
@@ -175,7 +230,14 @@
                             element = document.getElementById("substraction");
                             element.classList.add("active");
                         }
-                        x = parseFloat(cal.display.value);
+                        if ((cal.display.value).includes('.'))
+                        {
+                            x = parseFloat(cal.display.value);
+                        }
+                        else
+                        {
+                            x = parseInt(cal.display.value);
+                        }
                         operation = 7;
                         last = 7;
                         break;
@@ -193,7 +255,14 @@
             }       
             if (oper == 10)
             {
-                y = parseFloat(cal.display.value);
+                if ((cal.display.value).includes('.'))
+                {
+                    y = parseFloat(cal.display.value);
+                }
+                else
+                {
+                    y = parseInt(cal.display.value);
+                }
                 cal.display.value = equalat(last);
                 $(".active").removeClass("active");
                 block = -1;
