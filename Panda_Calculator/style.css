@@ -110,16 +110,20 @@ td{
 
 .delete-button{
   background:url(torles.png) no-repeat;
-  background-size: 10em 5em;
+  background-size: 9em 5em;
   cursor:pointer;
   height: 5em;
-  width:10em;
+  width:9em;
   border: 0;
 }
 
 .delete-button:active{   
   background:url(torles.png) no-repeat;
-  background-size: 10em 5em;
+  background-size: 9em 5em;
+}
+.delete-button-td{
+  float:right;
+  width: 4em;
 }
 
 .panda-logo {
