@@ -195,6 +195,7 @@
             {
                 y = parseFloat(cal.display.value);
                 cal.display.value = equalat(last);
+                $(".active").removeClass("active");
                 block = -1;
             }  
         }
