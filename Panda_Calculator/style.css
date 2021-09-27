@@ -152,8 +152,32 @@ td{
 .reklam-image{
 	width : 40%;
 	height : 20%;
+	background-color: #f0fffa;
 	object-fit:fill;
 	border: 1px dotted black;
+	opacity: 1;
+}
+
+.reklam-image:hover{
+	background-color: #ffffff;
+	border: 3px solid green;
+	opacity: 0.6;
+	width: 35%%;
+	height: 17.5%;
+}
+
+.reklam-img-overlay{
+	width: 35%%;
+	height: 17.5%;
+	background: rgba(0, 0, 0, 0.6);
+	color: #ffffff;
+	align-items: center;
+	justify-content: center;
+	opacity: 1;
+}
+
+.reklam-img-title{
+	font-weight: bold;
 }
 
  /* */

@@ -411,11 +411,16 @@
             <audio id="panda"  src="./song.mp3" preload="auto"></audio>
         </div>
     </section>
-    <section id="section-4" style="height: 200px; text-align:center">
-	//Ez a szekció a reklámoknak fenntartott hely.
-	//Jelenleg egy képet tartalmaz, ugyanakkor később használható valódi reklámok elhelyezésére.
+   <section id="section-4" style="height: 200px; text-align:center">
+	<!--Ez a szekció a reklámoknak fenntartott hely.-->
+	<!--Jelenleg egy képet tartalmaz, ugyanakkor később használható valódi reklámok elhelyezésére.-->
          <div class=reklamsav style="bottom: 50px; right: 0;">
-			<a><img src="addholder.png" alt="reklam" class="reklam-image" width = "500" height= "200" /></a>
+			<a>
+			<img src="addholder.png" alt="reklam" class="reklam-image" width = "500" height= "200" >
+			<div class = "reklam-img-overlay" style="bottom: 50px; right: 100px;" >
+				<div class = "reklam-img-title">Út a reklám oldalára</div>
+			</div>
+			</a>
         </div>
     </section>
 </body>
