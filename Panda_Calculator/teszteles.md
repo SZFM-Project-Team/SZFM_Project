@@ -29,6 +29,15 @@
 | 2021.09.27 1:58 | Szakács Ágnes | Egész szám osztása nála nagyobb egész számmal | Sikeres | 70/90 | 0.7777777777777778 | 0.7777777777777778 |
 | 2021.09.27 1:58 | Szakács Ágnes | Egész szám hozzáadása nála nagyobb floathoz | Sikeres | 21+34.6 | 55.6 | 55.6 |
 | 2021.09.27 1:58 | Szakács Ágnes | Egész szám hozzáadása nála kisebb floathoz | Sikeres | 21+7.8 | 28.8 | 28.8 |
-
-
-
+| 2021.09.27 6:58 | Horváth István | Egész számok beírása | Sikeres | 1 2 3 4 5 6 7 8 9 0| 1234567890| 1234567890 |
+| 2021.09.27 7:00 | Horváth István | Előjel váltás | Sikeres | 1  +/-  +/- | 1 -1 1 | 1 -1 1|
+| 2021.09.27 7:03 | Horváth István | Tizedes törtek beírása | Sikeres | 2 . 3 4| 2.34 | 2.34 |
+| 2021.09.27 7:06 | Horváth István | Összeadás | Sikeres | 1 2 + 3 4 =| 46 | 46 |
+| 2021.09.27 7:07 | Horváth István | Kivonás | Sikeres | 1 0 0 - 3 5 =| 65 | 65 |
+| 2021.09.27 7:10 | Horváth István | Szorzás | Sikeres | 1 0  * 5 5 5 =| 5550 | 5550 |
+| 2021.09.27 7:14 | Horváth István | Osztás | Sikeres | 2 0 0 0 / 1 0 0 =| 20 | 20 |
+| 2021.09.27 7:15 | Horváth István | Négyzetre emelés | Sikeres | 5 x^2 | 25 | 25 |
+| 2021.09.27 7:17 | Horváth István | Négyzetgyök vonás| Sikeres | 25 √ | 5 | 5 |
+| 2021.09.27 7:18 | Horváth István | Hatványozás| Sikeres | 5 x^y 3 = | 125 | 125 |
+| 2021.09.27 7:18 | Horváth István | Törlés | Sikeres | 125 CE|  |  |
+| 2021.09.27 7:19 | Horváth István | Tutorial popup | Sikeres |  |  |  |
